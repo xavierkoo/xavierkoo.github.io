@@ -1,5 +1,6 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import withSplashScreen from "./components/withSplashScreen";
 import { CursorProvider } from "react-cursor-custom";
 import { NavBar } from "./components/NavBar";
 // ADD CUSTOM CURSOR
@@ -17,4 +18,4 @@ function App() {
   );
 }
 
-export default App;
+export default withSplashScreen(App);
