@@ -3,6 +3,7 @@ import { Navbar, Nav, Container } from "react-bootstrap";
 import logo from '../assets/img/logo.png';
 import navIcon1 from '../assets/img/nav-icon1.svg';
 import navIcon2 from '../assets/img/nav-icon2.svg';
+import navIcon3 from '../assets/img/nav-icon3.png';
 
 export const NavBar = () => {
 
@@ -47,8 +48,9 @@ export const NavBar = () => {
                         {/* to do: add social media links*/}
                         <a href="https://www.linkedin.com/in/xavier-koo/" target="_blank"><img src={navIcon1} alt="" /></a>
                         <a href="https://github.com/xavierkoo" target="_blank"><img src={navIcon2} alt="" /></a>
+                        <a href="https://tinyurl.com/3s9w3aas" target="_blank"><img src={navIcon3} alt="" /></a>
                     </div>
-                    <button className="vvd" onClick={() => console.log('connect')}><span>Let's Connect</span></button>
+                    <button className="vvd" onClick={() => console.log('connect')}><span>Let's Connect!</span></button>
                 </span>
                 </Navbar.Collapse>
             </Container>

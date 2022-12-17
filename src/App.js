@@ -3,7 +3,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import withSplashScreen from "./components/withSplashScreen";
 import { CursorProvider } from "react-cursor-custom";
 import { NavBar } from "./components/NavBar";
-// ADD CUSTOM CURSOR
+import { Banner } from "./components/Banner"
+
 function App() {
   return (
     <div className="App">
@@ -13,6 +14,7 @@ function App() {
         transitionTime={75}
       >
         <NavBar />
+        <Banner />
       </CursorProvider>
     </div>
   );
