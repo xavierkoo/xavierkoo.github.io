@@ -4,7 +4,8 @@ import withSplashScreen from "./components/withSplashScreen";
 import { CursorProvider } from "react-cursor-custom";
 import { NavBar } from "./components/NavBar";
 import { Banner } from "./components/Banner";
-import { Skills } from "./components/Skills"
+import { Skills } from "./components/Skills";
+import { Projects } from "./components/Projects";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <NavBar />
         <Banner />
         <Skills />
+        <Projects />
       </CursorProvider>
     </div>
   );
