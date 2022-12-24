@@ -51,7 +51,6 @@ export const NavBar = () => {
                         <a href="https://github.com/xavierkoo" target="_blank"><img src={navIcon2} alt="" /></a>
                         <a href="https://github.com/xavierkoo/portfolio-website/raw/main/public/Xavier-Koo-Resume.pdf" target="_blank"><img src={navIcon3} alt="" /></a>
                     </div>
-                    <button className="vvd" onClick={() => console.log('connect')}><span>Let's Connect!</span></button>
                 </span>
                 </Navbar.Collapse>
             </Container>

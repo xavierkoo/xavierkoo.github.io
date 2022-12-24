@@ -68,10 +68,9 @@ export const Banner = () => {
                             <hr class="bg-secondary mt-0 border-2 border-top border-secondary"></hr>
                             <p>Aspiring software engineer passionate about Full Stack Development, Artificial Intelligence and Machine Learning.</p>
                             <p> Sophomore pursuing a BSc Information Systems at Singapore Management University with double majors in Software Design & Development and Artificial Intelligence.</p>
-                            <button onClick={() => console.log('connect')}>Let's Connect!<ArrowRightCircle size={25} /></button>
                         </h1>
                     </Col>
-                    <Col xs={12} md={6} xl={5}>
+                    <Col xs={12} md={6} xl={5} className="mt-5">
                         <AnimatedImg theme={animatedTheme} />
                     </Col>
                 </Row>
