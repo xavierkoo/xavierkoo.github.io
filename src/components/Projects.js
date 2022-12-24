@@ -15,25 +15,25 @@ export const Projects = () => {
     const softwareProjects = [
         {
             title: "Support Local",
-            description: "Full Stack eCommerce Web Application",
+            description: "Full Stack eCommerce Web Application created with the MEVN stack.",
             imgUrl: supportLocal,
             projUrl: 'https://github.com/xavierkoo/support-local-backend'
         },
         {
             title: "Monster Slayer",
-            description: "Browser Game",
+            description: "Browser Game created with HTML, CSS, Bootstrap & VueJS.",
             imgUrl: monster,
             projUrl: "https://github.com/xavierkoo/monster-slayer"
         },
         {
             title: "Hangman",
-            description: "Browser Game",
+            description: "Browser Game created with HTML, CSS, Javascript.",
             imgUrl: hangman,
             projUrl: "https://github.com/xavierkoo/hangman"
         },
         {
             title: "Portfolio Website",
-            description: "Designing & developing a portfolio website",
+            description: "Designing & developing a portfolio website with HTML, CSS, Bootstrap & ReactJS.",
             imgUrl: portfolio,
             projUrl: "https://github.com/xavierkoo/portfolio-website"
         },
@@ -42,7 +42,7 @@ export const Projects = () => {
     const mlProjects = [
         {
             title: "Facebook Humans or Robots",
-            description: "Kaggle Competition",
+            description: "Kaggle Competition to determine if auction bids are made by humans or robots.",
             imgUrl: kaggle,
             projUrl: "https://github.com/xavierkoo/facebook-human-or-robots-kaggle"
         },
@@ -51,7 +51,7 @@ export const Projects = () => {
     const miscProjects = [
         {
             title: "EV Charging Model",
-            description: "Spreadsheet Modelling & Analytics",
+            description: "Spreadsheet Modelling & Analytics that explores EV charging in Singapore.",
             imgUrl: ev,
             projUrl: "https://medium.com/@xavier2812/exploratory-model-for-ev-charging-infrastructure-in-singapore-f9a20e76ca3f"
         },
