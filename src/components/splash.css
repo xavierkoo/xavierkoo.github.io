@@ -36,7 +36,7 @@
     border-radius: 50px;
   }
   .ball:nth-child(1) {
-    background: #aa367c80;
+    background: #ff005d;
     -webkit-animation: right 1s infinite ease-in-out;
     -moz-animation: right 1s infinite ease-in-out;
     animation: right 1s infinite ease-in-out;

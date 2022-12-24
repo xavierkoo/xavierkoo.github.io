@@ -1,56 +1,61 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
+import supportLocal from "../assets/img/supportLocal.png";
+import monster from "../assets/img/monster-slayer.png";
+import hangman from "../assets/img/hangman.png";
+import portfolio from "../assets/img/portfolio.png";
+import kaggle from "../assets/img/kaggle.png";
+import ev from "../assets/img/ev.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
 export const Projects = () => {
 
-    const projects = [
-    {
-        title: "Support Local",
-        description: "Full Stack Web Application",
-        imgUrl: projImg1,
-    },
-    {
-        title: "Monster Slayer",
-        description: "Browser Game",
-        imgUrl: projImg2,
-    },
-    {
-        title: "Hangman",
-        description: "Browser Game",
-        imgUrl: projImg3,
-    },
-    {
-        title: "Facebook Humans or Robots",
-        description: "Kaggle Competition",
-        imgUrl: projImg1,
-    },
-    {
-        title: "EV Charging Model",
-        description: "Spreadsheet Modelling & Analytics",
-        imgUrl: projImg2,
-    },
-    {
-        title: "Full Stack Open",
-        description: "Design & Development",
-        imgUrl: projImg3,
-    },
-    {
-        title: "iRecycle",
-        description: "UI/UX",
-        imgUrl: projImg3,
-    },
-    {
-        title: "Portfolio Website",
-        description: "Design & Development",
-        imgUrl: projImg3,
-    },
-  ];
+    const softwareProjects = [
+        {
+            title: "Support Local",
+            description: "Full Stack eCommerce Web Application",
+            imgUrl: supportLocal,
+            projUrl: 'https://github.com/xavierkoo/support-local-backend'
+        },
+        {
+            title: "Monster Slayer",
+            description: "Browser Game",
+            imgUrl: monster,
+            projUrl: "https://github.com/xavierkoo/monster-slayer"
+        },
+        {
+            title: "Hangman",
+            description: "Browser Game",
+            imgUrl: hangman,
+            projUrl: "https://github.com/xavierkoo/hangman"
+        },
+        {
+            title: "Portfolio Website",
+            description: "Designing & developing a portfolio website",
+            imgUrl: portfolio,
+            projUrl: "https://github.com/xavierkoo/portfolio-website"
+        },
+    ];
+
+    const mlProjects = [
+        {
+            title: "Facebook Humans or Robots",
+            description: "Kaggle Competition",
+            imgUrl: kaggle,
+            projUrl: "https://github.com/xavierkoo/facebook-human-or-robots-kaggle"
+        },
+    ];
+
+    const miscProjects = [
+        {
+            title: "EV Charging Model",
+            description: "Spreadsheet Modelling & Analytics",
+            imgUrl: ev,
+            projUrl: "https://medium.com/@xavier2812/exploratory-model-for-ev-charging-infrastructure-in-singapore-f9a20e76ca3f"
+        },
+    ];
     return (
         <section className="project" id="project">
             <Container>
@@ -60,24 +65,23 @@ export const Projects = () => {
                         {({ isVisible }) =>
                         <div className={isVisible ? "animate__animated animate__fadeIn": ""} >
                             <h2>Projects</h2>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                             <Tab.Container id="projects-tabs" defaultActiveKey="first">
-                            <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
+                            <Nav variant="pills" className="nav-pills mb-5 mt-3 justify-content-center align-items-center" id="pills-tab">
                                 <Nav.Item>
-                                    <Nav.Link eventKey="first">Tab 1</Nav.Link>
+                                    <Nav.Link eventKey="first">Software</Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item>
-                                    <Nav.Link eventKey="second">Tab 2</Nav.Link>
+                                    <Nav.Link eventKey="second">ML/AI</Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item>
-                                    <Nav.Link eventKey="third">Tab 3</Nav.Link>
+                                    <Nav.Link eventKey="third">Misc.</Nav.Link>
                                 </Nav.Item>
                             </Nav>
                             <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
                                 <Tab.Pane eventKey="first">
                                     <Row>
                                         {
-                                            projects.map((project, index) => {
+                                            softwareProjects.map((project, index) => {
                                                 return (
                                                 <ProjectCard
                                                     key={index}
@@ -89,10 +93,32 @@ export const Projects = () => {
                                     </Row>
                                 </Tab.Pane>
                                 <Tab.Pane eventKey="second">
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                                    <Row>
+                                        {
+                                            mlProjects.map((project, index) => {
+                                                return (
+                                                <ProjectCard
+                                                    key={index}
+                                                    {...project}
+                                                />
+                                                )
+                                            })
+                                        }
+                                    </Row>
                                 </Tab.Pane>
                                 <Tab.Pane eventKey="third">
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                                    <Row>
+                                        {
+                                            miscProjects.map((project, index) => {
+                                                return (
+                                                <ProjectCard
+                                                    key={index}
+                                                    {...project}
+                                                />
+                                                )
+                                            })
+                                        }
+                                    </Row>
                                 </Tab.Pane>
                             </Tab.Content>
                             </Tab.Container>
