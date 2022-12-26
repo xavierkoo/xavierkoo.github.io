@@ -1,6 +1,15 @@
-# Getting Started with Create React App
+# Portfolio Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This portfolio website was created to showcase my technical skills, experience and personal projects.
+
+Deployed on Netlify: https://xavier-koo.netlify.app/
+
+## Tech Stack
+
+* HTML
+* CSS
+* Bootstrap
+* ReactJS
 
 ## Available Scripts
 
