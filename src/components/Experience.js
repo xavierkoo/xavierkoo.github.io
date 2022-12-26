@@ -41,8 +41,8 @@ export const Experience = () => {
                                     <TimelineConnector />
                                     </TimelineSeparator>
                                     <TimelineContent sx={{ py: "12px", px: 2 }}>
-                                    <Typography variant="h5" component="span" color="purple">
-                                        Pilot Trainee @ Republic Of Singapore Air Force
+                                    <Typography  fontWeight="bold" variant="h5" component="span">
+                                        Pilot Trainee <Typography variant="h5" color="primary">@Republic Of Singapore Air Force</Typography>
                                     </Typography>
                                     <Typography> - Represented Singapore as a pilot-in-training overseas in a fast-paced, high-stress environment alongside the Royal Australian Air Force for 7 months and attained 44 flying hours flying two aircraft, BAE Systems CT4/B and Pilatus PC-21.</Typography>
                                     <Typography> - Maintained smooth daily operations of squadron. Ensured all ops duties are carried out efficiently and accurately.</Typography>
@@ -65,8 +65,8 @@ export const Experience = () => {
                                     <TimelineConnector />
                                     </TimelineSeparator>
                                     <TimelineContent sx={{ py: "12px", px: 2 }}>
-                                    <Typography variant="h5" component="span" color="purple">
-                                    Business Development & Community Management Executive @ Bountie Technologies
+                                    <Typography fontWeight="bold" variant="h5" component="span">
+                                    Business Development & Community Management Executive  <Typography variant="h5" color="primary">@Bountie Technologies</Typography>
                                     </Typography>
                                     <Typography> - Identified and pitched to more than 10 sales leads for Bountie's cryptocurrency ICO, securing 50% of sales leads.</Typography>
                                     <Typography> - Created and oversee the growth of Bountie's 25,000 strong Telegram group and 3000 followers Instagram account.</Typography>
@@ -89,8 +89,8 @@ export const Experience = () => {
                                     <TimelineConnector />
                                     </TimelineSeparator>
                                     <TimelineContent sx={{ py: "12px", px: 2 }}>
-                                    <Typography variant="h5" component="span" color="purple">
-                                    Market Research Consultant @ Jumbo Group of Restaurants
+                                    <Typography  fontWeight="bold" variant="h5" component="span">
+                                    Market Research Consultant <Typography variant="h5" color="primary">@Jumbo Group of Restaurants</Typography>
                                     </Typography>
                                     <Typography> - Led overseas market research in VN, TH, and ID, interviewing 100+ locals to develop strategies for Jumbo's expansion.</Typography>
                                     </TimelineContent>
