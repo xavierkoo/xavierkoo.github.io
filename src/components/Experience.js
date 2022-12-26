@@ -19,57 +19,82 @@ export const Experience = () => {
                 <Row>
                     <Col>
                         <div>
-                            <h2 className="mt-3">
-                                Experience (WORK IN PROGRESS)
+                            <h2 className="mt-5">
+                                Experience
                             </h2>
-                            <p2>Lorem Ipsum </p2>
 
                             <Timeline position="alternate">
-                            <TimelineItem>
-                                <TimelineOppositeContent
-                                sx={{ m: "auto 0" }}
-                                align="right"
-                                variant="body2"
-                                color="text.dark"
-                                >
-                                YEAR
-                                </TimelineOppositeContent>
-                                <TimelineSeparator>
-                                <TimelineConnector  />
-                                <TimelineDot color="primary">
-                                    <CodeIcon />
-                                </TimelineDot>
-                                <TimelineConnector />
-                                </TimelineSeparator>
-                                <TimelineContent sx={{ py: "12px", px: 2 }}>
-                                <Typography variant="h6" component="span">
-                                    JOB TITLE @ COMPANY NAME
-                                </Typography>
-                                <Typography>JOB DESCRIPTION</Typography>
-                                </TimelineContent>
-                            </TimelineItem>
-                            {/* <TimelineItem>
-                                <TimelineOppositeContent
-                                sx={{ m: "auto 0" }}
-                                variant="body2"
-                                color="text.dark"
-                                >
-                                10:00 am
-                                </TimelineOppositeContent>
-                                <TimelineSeparator>
-                                <TimelineConnector />
-                                <TimelineDot color="primary">
-                                    <LaptopMacIcon />
-                                </TimelineDot>
-                                <TimelineConnector />
-                                </TimelineSeparator>
-                                <TimelineContent sx={{ py: "12px", px: 2 }}>
-                                <Typography variant="h6" component="span">
-                                    Code
-                                </Typography>
-                                <Typography>Because it&apos;s awesome!</Typography>
-                                </TimelineContent>
-                            </TimelineItem> */}
+                                <TimelineItem>
+                                    <TimelineOppositeContent
+                                    sx={{ m: "auto 0" }}
+                                    align="right"
+                                    variant="h6"
+                                    color="text.dark"
+                                    >
+                                    2018 - 2021
+                                    </TimelineOppositeContent>
+                                    <TimelineSeparator>
+                                    <TimelineConnector  />
+                                    <TimelineDot color="primary">
+                                        <CodeIcon />
+                                    </TimelineDot>
+                                    <TimelineConnector />
+                                    </TimelineSeparator>
+                                    <TimelineContent sx={{ py: "12px", px: 2 }}>
+                                    <Typography variant="h5" component="span" color="purple">
+                                        Pilot Trainee @ Republic Of Singapore Air Force
+                                    </Typography>
+                                    <Typography> - Represented Singapore as a pilot-in-training overseas in a fast-paced, high-stress environment alongside the Royal Australian Air Force for 7 months and attained 44 flying hours flying two aircraft, BAE Systems CT4/B and Pilatus PC-21.</Typography>
+                                    <Typography> - Maintained smooth daily operations of squadron. Ensured all ops duties are carried out efficiently and accurately.</Typography>
+                                    </TimelineContent>
+                                </TimelineItem>
+                                <TimelineItem>
+                                    <TimelineOppositeContent
+                                    sx={{ m: "auto 0" }}
+                                    align="right"
+                                    variant="h6"
+                                    color="text.dark"
+                                    >
+                                    2017 - 2018
+                                    </TimelineOppositeContent>
+                                    <TimelineSeparator>
+                                    <TimelineConnector  />
+                                    <TimelineDot color="primary">
+                                        <CodeIcon />
+                                    </TimelineDot>
+                                    <TimelineConnector />
+                                    </TimelineSeparator>
+                                    <TimelineContent sx={{ py: "12px", px: 2 }}>
+                                    <Typography variant="h5" component="span" color="purple">
+                                    Business Development & Community Management Executive @ Bountie Technologies
+                                    </Typography>
+                                    <Typography> - Identified and pitched to more than 10 sales leads for Bountie's cryptocurrency ICO, securing 50% of sales leads.</Typography>
+                                    <Typography> - Created and oversee the growth of Bountie's 25,000 strong Telegram group and 3000 followers Instagram account.</Typography>
+                                    </TimelineContent>
+                                </TimelineItem>
+                                <TimelineItem>
+                                    <TimelineOppositeContent
+                                    sx={{ m: "auto 0" }}
+                                    align="right"
+                                    variant="h6"
+                                    color="text.dark"
+                                    >
+                                    2017 - 2018
+                                    </TimelineOppositeContent>
+                                    <TimelineSeparator>
+                                    <TimelineConnector  />
+                                    <TimelineDot color="primary">
+                                        <CodeIcon />
+                                    </TimelineDot>
+                                    <TimelineConnector />
+                                    </TimelineSeparator>
+                                    <TimelineContent sx={{ py: "12px", px: 2 }}>
+                                    <Typography variant="h5" component="span" color="purple">
+                                    Market Research Consultant @ Jumbo Group of Restaurants
+                                    </Typography>
+                                    <Typography> - Led overseas market research in VN, TH, and ID, interviewing 100+ locals to develop strategies for Jumbo's expansion.</Typography>
+                                    </TimelineContent>
+                                </TimelineItem>
                             </Timeline>
 
                         </div>
