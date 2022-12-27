@@ -17,25 +17,29 @@ export const Projects = () => {
             title: "Support Local",
             description: "Full Stack eCommerce Web Application created with the MEVN stack.",
             imgUrl: supportLocal,
-            projUrl: 'https://github.com/xavierkoo/support-local-backend'
+            projUrl: 'https://github.com/xavierkoo/support-local-backend',
+            depUrl: 'https://supportlocal.netlify.app'
         },
         {
             title: "Monster Slayer",
             description: "Browser Game created with HTML, CSS, Bootstrap & VueJS.",
             imgUrl: monster,
-            projUrl: "https://github.com/xavierkoo/monster-slayer"
+            projUrl: "https://github.com/xavierkoo/monster-slayer",
+            depUrl: 'https://monster-slayer-vue-game.netlify.app/'
         },
         {
             title: "Hangman",
             description: "Browser Game created with HTML, CSS, Javascript.",
             imgUrl: hangman,
-            projUrl: "https://github.com/xavierkoo/hangman"
+            projUrl: "https://github.com/xavierkoo/hangman",
+            depUrl: 'https://hangman-game-689910.netlify.app/'
         },
         {
             title: "Portfolio Website",
             description: "Designing & developing a portfolio website with HTML, CSS, Bootstrap & ReactJS.",
             imgUrl: portfolio,
-            projUrl: "https://github.com/xavierkoo/portfolio-website"
+            projUrl: "https://github.com/xavierkoo/portfolio-website",
+            depUrl: 'https://xavier-koo.netlify.app/'
         },
     ];
 
@@ -44,7 +48,8 @@ export const Projects = () => {
             title: "Facebook Humans or Robots",
             description: "Kaggle Competition to determine if auction bids are made by humans or robots.",
             imgUrl: kaggle,
-            projUrl: "https://github.com/xavierkoo/facebook-human-or-robots-kaggle"
+            projUrl: "https://github.com/xavierkoo/facebook-human-or-robots-kaggle",
+            depUrl: 'https://www.kaggle.com/competitions/ai200-dec-2021-human-or-bot/overview'
         },
     ];
 
@@ -53,7 +58,8 @@ export const Projects = () => {
             title: "EV Charging Model",
             description: "Spreadsheet Modelling & Analytics that explores EV charging in Singapore.",
             imgUrl: ev,
-            projUrl: "https://medium.com/@xavier2812/exploratory-model-for-ev-charging-infrastructure-in-singapore-f9a20e76ca3f"
+            projUrl: "https://github.com/xavierkoo/evchargingmodel",
+            depUrl: 'https://medium.com/@xavier2812/exploratory-model-for-ev-charging-infrastructure-in-singapore-f9a20e76ca3f'
         },
     ];
     return (
