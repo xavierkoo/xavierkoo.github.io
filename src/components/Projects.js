@@ -6,6 +6,7 @@ import hangman from "../assets/img/hangman.png";
 import portfolio from "../assets/img/portfolio.png";
 import kaggle from "../assets/img/kaggle.png";
 import ev from "../assets/img/ev.png";
+import irecycle from "../assets/img/irecycle.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -60,6 +61,12 @@ export const Projects = () => {
             imgUrl: ev,
             projUrl: "https://github.com/xavierkoo/evchargingmodel",
             depUrl: 'https://medium.com/@xavier2812/exploratory-model-for-ev-charging-infrastructure-in-singapore-f9a20e76ca3f'
+        },
+        {
+            title: "iRecycle",
+            description: "UI/UX project of an app that motivate users to recycle.",
+            imgUrl: irecycle,
+            depUrl: "https://aaronkwah.dev/irecycle",
         },
     ];
     return (

@@ -20,7 +20,7 @@ export const Experience = () => {
                     <Col>
                         <div>
                             <h2 className="mt-5">
-                                Experience
+                                Experiences
                             </h2>
 
                             <Timeline position="alternate">
