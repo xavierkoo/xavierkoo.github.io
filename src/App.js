@@ -12,11 +12,11 @@ import { Experience } from "./components/Experience";
 function App() {
   return (
     <div className="App">
-     <CursorProvider
-        color={'grey'}
-        ringSize={25}
-        transitionTime={75}
-      >
+        <CursorProvider
+          color={'grey'}
+          ringSize={25}
+          transitionTime={75}
+        >
         <NavBar />
         <Banner />
         <Skills />
