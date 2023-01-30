@@ -7,7 +7,7 @@ import portfolio from "../assets/img/portfolio.png";
 import kaggle from "../assets/img/kaggle.png";
 import ev from "../assets/img/ev.png";
 import irecycle from "../assets/img/irecycle.png";
-import colorSharp2 from "../assets/img/color-sharp2.png";
+import colorSharp2 from "../assets/img/color-sharp2.webp";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 

@@ -2,7 +2,7 @@ import languages from "../assets/img/languages.png";
 import fl from "../assets/img/fl.png";
 import databases from "../assets/img/databases.png";
 import tools from "../assets/img/tools.png";
-import colorSharp from "../assets/img/color-sharp.png";
+import colorSharp from "../assets/img/color-sharp.webp";
 import { Container, Row, Col } from 'react-bootstrap';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
