@@ -65,7 +65,7 @@ export const Banner = () => {
                             <span className="wrap text-secondary">
                                 {text}
                             </span>
-                            <hr class="bg-secondary mt-0 border-2 border-top border-secondary"></hr>
+                            <hr className="bg-secondary mt-0 border-2 border-top border-secondary"></hr>
                             <p>Aspiring software engineer passionate about Full Stack Development, Artificial Intelligence and Machine Learning.</p>
                             <p> Sophomore pursuing a BSc Information Systems (IS) at Singapore Management University (SMU) with double majors in Software Design & Development and Artificial Intelligence.</p>
                         </h1>

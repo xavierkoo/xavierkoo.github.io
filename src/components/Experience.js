@@ -22,7 +22,6 @@ export const Experience = () => {
                             <h2 className="mt-5">
                                 Experiences
                             </h2>
-
                             <Timeline position="alternate">
                                 <TimelineItem>
                                     <TimelineOppositeContent
@@ -31,7 +30,53 @@ export const Experience = () => {
                                     variant="h6"
                                     color="text.dark"
                                     >
-                                    2018 - 2021
+                                    Feb 2023 - Present
+                                    </TimelineOppositeContent>
+                                    <TimelineSeparator>
+                                    <TimelineConnector  />
+                                    <TimelineDot color="primary">
+                                        <CodeIcon />
+                                    </TimelineDot>
+                                    <TimelineConnector />
+                                    </TimelineSeparator>
+                                    <TimelineContent sx={{ py: "12px", px: 2 }}>
+                                    <Typography  fontWeight="bold" variant="h5" component="span">
+                                    Software Engineer <Typography variant="h5" color="primary">@Asterisk Technologies</Typography>
+                                    </Typography>
+                                    <Typography></Typography> {/* TODO: add description */}
+                                    </TimelineContent>
+                                </TimelineItem>
+                                <TimelineItem>
+                                    <TimelineOppositeContent
+                                    sx={{ m: "auto 0" }}
+                                    align="right"
+                                    variant="h6"
+                                    color="text.dark"
+                                    >
+                                    Jan 2023 - Present
+                                    </TimelineOppositeContent>
+                                    <TimelineSeparator>
+                                    <TimelineConnector  />
+                                    <TimelineDot color="primary">
+                                        <CodeIcon />
+                                    </TimelineDot>
+                                    <TimelineConnector />
+                                    </TimelineSeparator>
+                                    <TimelineContent sx={{ py: "12px", px: 2 }}>
+                                    <Typography  fontWeight="bold" variant="h5" component="span">
+                                    Technical Writer <Typography variant="h5" color="primary">@Medium Blog</Typography>
+                                    </Typography>
+                                    <Typography></Typography> {/* TODO: add description */}
+                                    </TimelineContent>
+                                </TimelineItem>
+                                <TimelineItem>
+                                    <TimelineOppositeContent
+                                    sx={{ m: "auto 0" }}
+                                    align="right"
+                                    variant="h6"
+                                    color="text.dark"
+                                    >
+                                    Dec 2018 - Jan 2021
                                     </TimelineOppositeContent>
                                     <TimelineSeparator>
                                     <TimelineConnector  />
@@ -70,29 +115,6 @@ export const Experience = () => {
                                     </Typography>
                                     <Typography> - Identified and pitched to more than 10 sales leads for Bountie's cryptocurrency ICO, securing 50% of sales leads.</Typography>
                                     <Typography> - Created and oversee the growth of Bountie's 25,000 strong Telegram group and 3000 followers Instagram account.</Typography>
-                                    </TimelineContent>
-                                </TimelineItem>
-                                <TimelineItem>
-                                    <TimelineOppositeContent
-                                    sx={{ m: "auto 0" }}
-                                    align="right"
-                                    variant="h6"
-                                    color="text.dark"
-                                    >
-                                    2017 - 2018
-                                    </TimelineOppositeContent>
-                                    <TimelineSeparator>
-                                    <TimelineConnector  />
-                                    <TimelineDot color="primary">
-                                        <CodeIcon />
-                                    </TimelineDot>
-                                    <TimelineConnector />
-                                    </TimelineSeparator>
-                                    <TimelineContent sx={{ py: "12px", px: 2 }}>
-                                    <Typography  fontWeight="bold" variant="h5" component="span">
-                                    Market Research Consultant <Typography variant="h5" color="primary">@Jumbo Group of Restaurants</Typography>
-                                    </Typography>
-                                    <Typography> - Led overseas market research in VN, TH, and ID, interviewing 100+ locals to develop strategies for Jumbo's expansion.</Typography>
                                     </TimelineContent>
                                 </TimelineItem>
                             </Timeline>
