@@ -93,30 +93,6 @@ export const Experience = () => {
                                     <Typography> - Maintained smooth daily operations of squadron. Ensured all ops duties are carried out efficiently and accurately.</Typography>
                                     </TimelineContent>
                                 </TimelineItem>
-                                <TimelineItem>
-                                    <TimelineOppositeContent
-                                    sx={{ m: "auto 0" }}
-                                    align="right"
-                                    variant="h6"
-                                    color="text.dark"
-                                    >
-                                    2017 - 2018
-                                    </TimelineOppositeContent>
-                                    <TimelineSeparator>
-                                    <TimelineConnector  />
-                                    <TimelineDot color="primary">
-                                        <CodeIcon />
-                                    </TimelineDot>
-                                    <TimelineConnector />
-                                    </TimelineSeparator>
-                                    <TimelineContent sx={{ py: "12px", px: 2 }}>
-                                    <Typography fontWeight="bold" variant="h5" component="span">
-                                    Business Development & Community Management Executive  <Typography variant="h5" color="primary">@Bountie Technologies</Typography>
-                                    </Typography>
-                                    <Typography> - Identified and pitched to more than 10 sales leads for Bountie's cryptocurrency ICO, securing 50% of sales leads.</Typography>
-                                    <Typography> - Created and oversee the growth of Bountie's 25,000 strong Telegram group and 3000 followers Instagram account.</Typography>
-                                    </TimelineContent>
-                                </TimelineItem>
                             </Timeline>
 
                         </div>
