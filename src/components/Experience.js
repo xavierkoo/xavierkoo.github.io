@@ -88,8 +88,8 @@ export const Experience = () => {
                                     <Typography  fontWeight="bold" variant="h5" component="span">
                                         Pilot Trainee <Typography variant="h5" color="secondary">@Republic Of Singapore Air Force</Typography>
                                     </Typography>
-                                    <Typography> · Represented Singapore as a pilot-in-training overseas in a fast-paced, high-stress environment alongside the Royal Australian Air Force for 7 months and attained 44 flying hours flying two aircraft, BAE Systems CT4/B and Pilatus PC-21.</Typography>
-                                    <Typography> · Maintained smooth daily operations of squadron. Ensured all ops duties are carried out efficiently and accurately.</Typography>
+                                    <Typography> ● Represented Singapore as a pilot-in-training overseas in a fast-paced, high-stress environment alongside the Royal Australian Air Force for 7 months and attained 44 flying hours flying two aircraft, BAE Systems CT4/B and Pilatus PC-21.</Typography>
+                                    <Typography> ● Maintained smooth daily operations of squadron. Ensured all ops duties are carried out efficiently and accurately.</Typography>
                                     </TimelineContent>
                                 </TimelineItem>
                             </Timeline>
