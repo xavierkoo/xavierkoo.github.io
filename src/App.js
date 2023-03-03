@@ -20,8 +20,8 @@ function App() {
         <NavBar />
         <Banner />
         <Skills />
-        <Projects />
         <Experience />
+        <Projects />
         <Footer />
       </CursorProvider>
     </div>
