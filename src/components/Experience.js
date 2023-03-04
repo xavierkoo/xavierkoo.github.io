@@ -42,9 +42,7 @@ export const Experience = () => {
                                     <Typography  fontWeight="bold" variant="h5" component="span">
                                     Software Engineer <Typography variant="h5" color="secondary">@Asterisk Technologies</Typography>
                                     </Typography>
-                                    <ul>
-                                        <li><Typography></Typography></li> {/* TODO: add description */}
-                                    </ul>
+                                        <Typography></Typography> {/* TODO: add description in list */}
                                     </TimelineContent>
                                 </TimelineItem>
                                 <TimelineItem>
@@ -67,9 +65,7 @@ export const Experience = () => {
                                     <Typography  fontWeight="bold" variant="h5" component="span">
                                     Technical Writer <Typography variant="h5" color="secondary">@Medium Blog</Typography>
                                     </Typography>
-                                    <ul>
-                                        <li><Typography></Typography></li> {/* TODO: add description */}
-                                    </ul>
+                                        <Typography></Typography> {/* TODO: add description in list */}
                                     </TimelineContent>
                                 </TimelineItem>
                                 <TimelineItem>
