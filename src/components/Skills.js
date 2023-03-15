@@ -43,7 +43,7 @@ export const Skills = () => {
                                 <i class="devicon-python-plain-wordmark colored"></i>
                                 <i class="devicon-java-plain-wordmark colored"></i>
                             </div>
-                            <h5>Languages</h5>
+                            <h4>Languages</h4>
                             <div className="item">
                                 <i class="devicon-bootstrap-plain-wordmark colored"></i>
                                 <i class="devicon-react-original-wordmark colored"></i>
@@ -53,13 +53,13 @@ export const Skills = () => {
                                 <i class="devicon-spring-plain-wordmark colored"></i>
                                 <i class="devicon-jest-plain colored"></i>
                             </div>
-                            <h5>Frameworks & Libraries</h5>
+                            <h4>Frameworks & Libraries</h4>
                             <div className="item">
                                 <i class="devicon-mongodb-plain-wordmark colored"></i>
                                 <i class="devicon-mysql-plain-wordmark colored"></i>
           
                             </div>
-                            <h5>Databases</h5>
+                            <h4>Databases</h4>
                             <div className="item">
                                 <i class="devicon-docker-plain-wordmark colored"></i>
                                 <i class="devicon-git-plain-wordmark colored"></i>  
@@ -70,7 +70,7 @@ export const Skills = () => {
                                 <i class="devicon-figma-plain colored"></i>
                                 
                             </div>
-                            <h5>Tools</h5>
+                            <h4>Tools</h4>
                         </div>
                     </Col>
                 </Row>
