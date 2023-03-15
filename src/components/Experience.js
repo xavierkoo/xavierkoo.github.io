@@ -42,7 +42,7 @@ export const Experience = () => {
                                     <Typography  fontWeight="bold" variant="h5" component="span">
                                     Software Engineer <Typography variant="h5" color="secondary">@Asterisk Technologies</Typography>
                                     </Typography>
-                                    <Typography></Typography> {/* TODO: add description */}
+                                        <Typography></Typography> {/* TODO: add description in list */}
                                     </TimelineContent>
                                 </TimelineItem>
                                 <TimelineItem>
@@ -65,7 +65,7 @@ export const Experience = () => {
                                     <Typography  fontWeight="bold" variant="h5" component="span">
                                     Technical Writer <Typography variant="h5" color="secondary">@Medium Blog</Typography>
                                     </Typography>
-                                    <Typography></Typography> {/* TODO: add description */}
+                                        <Typography></Typography> {/* TODO: add description in list */}
                                     </TimelineContent>
                                 </TimelineItem>
                                 <TimelineItem>
@@ -88,8 +88,10 @@ export const Experience = () => {
                                     <Typography  fontWeight="bold" variant="h5" component="span">
                                         Pilot Trainee <Typography variant="h5" color="secondary">@Republic Of Singapore Air Force</Typography>
                                     </Typography>
-                                    <Typography> - Represented Singapore as a pilot-in-training overseas in a fast-paced, high-stress environment alongside the Royal Australian Air Force for 7 months and attained 44 flying hours flying two aircraft, BAE Systems CT4/B and Pilatus PC-21.</Typography>
-                                    <Typography> - Maintained smooth daily operations of squadron. Ensured all ops duties are carried out efficiently and accurately.</Typography>
+                                    <ul>
+                                        <li><Typography> Represented Singapore as a pilot-in-training overseas in a fast-paced, high-stress environment alongside the Royal Australian Air Force for 7 months and attained 44 flying hours flying two aircraft, BAE Systems CT4/B and Pilatus PC-21.</Typography></li>
+                                        <li><Typography> Maintained smooth daily operations of squadron. Ensured all ops duties are carried out efficiently and accurately.</Typography></li>
+                                    </ul>
                                     </TimelineContent>
                                 </TimelineItem>
                             </Timeline>
