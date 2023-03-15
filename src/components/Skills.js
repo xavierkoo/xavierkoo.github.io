@@ -1,7 +1,4 @@
-import languages from "../assets/img/languages.png";
-import fl from "../assets/img/fl.png";
-import databases from "../assets/img/databases.png";
-import tools from "../assets/img/tools.png";
+import '../../src/App.css';
 import colorSharp from "../assets/img/color-sharp.webp";
 import { Container, Row, Col } from 'react-bootstrap';
 import Carousel from 'react-multi-carousel';
@@ -38,24 +35,42 @@ export const Skills = () => {
                                 Skills
                             </h2>
                             <p>As an aspiring software engineer, I possess expertise in a wide range of technical skills.<br></br>I am passionate about my work and always eager to learn more.</p>
-                            <Carousel responsive={responsive} infinite={true} className="skill-slider">
-                                <div className="item">
-                                    <img src={languages} alt="Image" />
-                                    <h5>Languages</h5>
-                                </div>
-                                <div className="item2">
-                                    <img src={fl} alt="Image" />
-                                    <h5>Frameworks & Libraries</h5>
-                                </div>
-                                <div className="item3">
-                                    <img src={databases} alt="Image" />
-                                    <h5>Databases</h5>
-                                </div>
-                                <div className="item">
-                                    <img src={tools} alt="Image" />
-                                    <h5>Tools</h5>
-                                </div>
-                            </Carousel>
+                            <div className="item">
+                                <i class="devicon-html5-plain-wordmark colored"></i>
+                                <i class="devicon-css3-plain-wordmark colored"></i>
+                                <i class="devicon-sass-original colored"></i>
+                                <i class="devicon-javascript-plain colored"></i>                      
+                                <i class="devicon-python-plain-wordmark colored"></i>
+                                <i class="devicon-java-plain-wordmark colored"></i>
+                            </div>
+                            <h5>Languages</h5>
+                            <div className="item">
+                                <i class="devicon-bootstrap-plain-wordmark colored"></i>
+                                <i class="devicon-react-original-wordmark colored"></i>
+                                <i class="devicon-vuejs-plain-wordmark colored"></i>
+                                <i class="devicon-express-original-wordmark"></i>
+                                <i class="devicon-nodejs-plain-wordmark colored"></i>
+                                <i class="devicon-spring-plain-wordmark colored"></i>
+                                <i class="devicon-jest-plain colored"></i>
+                            </div>
+                            <h5>Frameworks & Libraries</h5>
+                            <div className="item">
+                                <i class="devicon-mongodb-plain-wordmark colored"></i>
+                                <i class="devicon-mysql-plain-wordmark colored"></i>
+          
+                            </div>
+                            <h5>Databases</h5>
+                            <div className="item">
+                                <i class="devicon-docker-plain-wordmark colored"></i>
+                                <i class="devicon-git-plain-wordmark colored"></i>  
+                                <i class="devicon-github-original-wordmark"></i>
+                                <i class="devicon-eslint-original-wordmark colored"></i>
+                                <i class="devicon-heroku-original-wordmark colored"></i>
+                                <i class="devicon-jira-plain-wordmark colored"></i>
+                                <i class="devicon-figma-plain colored"></i>
+                                
+                            </div>
+                            <h5>Tools</h5>
                         </div>
                     </Col>
                 </Row>

@@ -67,6 +67,12 @@ input:focus, textarea:focus, select:focus {
   outline: none;
 }
 
+i {
+  font-size: 65px;
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+
 @media (min-width:1700px) {
 	main .container {
 		max-width: 100%;
@@ -302,6 +308,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 /* Skills CSS */
+.item {
+  margin-top: 35px;
+  margin-bottom: 10px;
+}
 .skill {
   padding: 0 0 50px 0;
   position: relative;
@@ -323,20 +333,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     letter-spacing: 0.8px;
     line-height: 1.5em;
     margin: 14px 0 75px 0;
-}
-.skill-slider {
-  width: 80%;
-  margin: 0 auto;
-  position: relative;
-}
-.skill-slider .item img {
-  width: 80%;
-  margin: 0 auto 30px auto;
-}
-
-.skill-slider .item2 img {
-  width: 100%;
-  margin: 0 auto 30px auto;
 }
 
 .skill-slider .item3 img {
