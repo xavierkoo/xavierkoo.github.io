@@ -16,7 +16,7 @@ export const Projects = () => {
     const softwareProjects = [
         {
             title: "Support Local",
-            description: "Full Stack eCommerce Web Application created with the MEVN stack.",
+            description: "Full-stack web application to serve as an eCommerce platform for local businesses, employing HTML, CSS, Bootstrap, Vue.js, Node.js, Express.js, MongoDB.",
             imgUrl: supportLocal,
             projUrl: 'https://github.com/xavierkoo/support-local-backend',
             depUrl: 'https://supportlocal.netlify.app'
