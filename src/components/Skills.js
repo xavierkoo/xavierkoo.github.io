@@ -50,7 +50,7 @@ export const Skills = () => {
                                 <i class="devicon-vuejs-plain-wordmark colored"></i>
                                 <i class="devicon-express-original-wordmark"></i>
                                 <i class="devicon-nodejs-plain-wordmark colored"></i>
-                                <i class="devicon-electron-original-wordmark"></i>
+                                <i class="devicon-electron-original-wordmark" style={{ fontSize: '90px' }}></i>
                                 <i class="devicon-spring-plain-wordmark colored"></i>
                                 <i class="devicon-jest-plain colored"></i>
                             </div>
