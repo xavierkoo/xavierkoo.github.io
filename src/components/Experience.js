@@ -42,7 +42,14 @@ export const Experience = () => {
                                     <Typography  fontWeight="bold" variant="h5" component="span">
                                     Software Engineer <Typography variant="h5" color="secondary">@Asterisk Technologies</Typography>
                                     </Typography>
-                                        <Typography></Typography> {/* TODO: add description in list */}
+                                    <Typography></Typography> {/* TODO: add description in list */}
+                                    <i class="devicon-bootstrap-plain colored" style={{ fontSize: '50px' }}></i>
+                                    <i class="devicon-react-original colored" style={{ fontSize: '50px' }}></i>
+                                    <i class="devicon-express-original" style={{ fontSize: '50px' }}></i>
+                                    <i class="devicon-nodejs-plain colored" style={{ fontSize: '50px' }}></i>
+                                    <i class="devicon-electron-original colored" style={{ fontSize: '50px' }}></i>
+                                    <i class="devicon-jest-plain colored" style={{ fontSize: '50px' }}></i>
+                                    <i class="devicon-mongodb-plain colored" style={{ fontSize: '50px' }}></i>
                                     </TimelineContent>
                                 </TimelineItem>
                                 <TimelineItem>

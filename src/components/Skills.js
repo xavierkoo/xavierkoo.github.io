@@ -1,82 +1,76 @@
-import '../../src/App.css';
+import React, { useState } from 'react';
+import { Container, Row, Col, Carousel } from 'react-bootstrap';
 import colorSharp from "../assets/img/color-sharp.webp";
-import { Container, Row, Col } from 'react-bootstrap';
-import Carousel from 'react-multi-carousel';
-import 'react-multi-carousel/lib/styles.css';
 
 export const Skills = () => {
-    const responsive = {
-        superLargeDesktop: {
-          // the naming can be any, depends on you.
-          breakpoint: { max: 4000, min: 3000 },
-          items: 5
-        },
-        desktop: {
-          breakpoint: { max: 3000, min: 1024 },
-          items: 3
-        },
-        tablet: {
-          breakpoint: { max: 1024, min: 464 },
-          items: 2
-        },
-        mobile: {
-          breakpoint: { max: 464, min: 0 },
-          items: 1
-        }
-    };
+  const [index, setIndex] = useState(0);
 
-    return (
-        <section className='skill' id='skills'>
-            <Container>
-                <Row>
-                    <Col>
-                        <div className='skill-bx'>
-                            <h2>
-                                Skills
-                            </h2>
-                            <p>As an aspiring software engineer, I possess expertise in a wide range of technical skills.<br></br>I am passionate about my work and always eager to learn more.</p>
-                            <div className="item">
-                                <i class="devicon-html5-plain-wordmark colored"></i>
-                                <i class="devicon-css3-plain-wordmark colored"></i>
-                                <i class="devicon-sass-original colored"></i>
-                                <i class="devicon-javascript-plain colored"></i>                      
-                                <i class="devicon-python-plain-wordmark colored"></i>
-                                <i class="devicon-java-plain-wordmark colored"></i>
-                            </div>
-                            <h4>Languages</h4>
-                            <div className="item">
-                                <i class="devicon-bootstrap-plain-wordmark colored"></i>
-                                <i class="devicon-react-original-wordmark colored"></i>
-                                <i class="devicon-vuejs-plain-wordmark colored"></i>
-                                <i class="devicon-express-original-wordmark"></i>
-                                <i class="devicon-nodejs-plain-wordmark colored"></i>
-                                <i class="devicon-electron-original-wordmark" style={{ fontSize: '90px' }}></i>
-                                <i class="devicon-spring-plain-wordmark colored"></i>
-                                <i class="devicon-jest-plain colored"></i>
-                            </div>
-                            <h4>Frameworks & Libraries</h4>
-                            <div className="item">
-                                <i class="devicon-mongodb-plain-wordmark colored"></i>
-                                <i class="devicon-mysql-plain-wordmark colored"></i>
-          
-                            </div>
-                            <h4>Databases</h4>
-                            <div className="item">
-                                <i class="devicon-docker-plain-wordmark colored"></i>
-                                <i class="devicon-git-plain-wordmark colored"></i>  
-                                <i class="devicon-github-original-wordmark"></i>
-                                <i class="devicon-eslint-original-wordmark colored"></i>
-                                <i class="devicon-heroku-original-wordmark colored"></i>
-                                <i class="devicon-jira-plain-wordmark colored"></i>
-                                <i class="devicon-figma-plain colored"></i>
-                                
-                            </div>
-                            <h4>Tools</h4>
-                        </div>
-                    </Col>
-                </Row>
-            </Container>
-            <img className="background-image-left" src={colorSharp} alt="Image" />
-        </section>
-    )
-}
+  const handleSelect = (selectedIndex, e) => {
+    setIndex(selectedIndex);
+  };
+
+  return (
+    <section className='skill' id='skills'>
+      <Container>
+        <Row>
+          <Col>
+            <div className='skill-bx'>
+              <h2>Skills</h2>
+              <p>
+                As an aspiring software engineer, I possess expertise in a wide range of technical
+                skills.
+                <br></br>I am passionate about my work and always eager to learn more.
+              </p>
+              <Carousel activeIndex={index} onSelect={handleSelect} style={{ height: '200px' }}>
+                <Carousel.Item>
+                  <h4>Languages</h4>
+                  <div className='item' style={{ marginTop: '20px' }}>
+                    <i className='devicon-html5-plain colored'></i>
+                    <i className='devicon-css3-plain colored'></i>
+                    <i className='devicon-sass-original colored'></i>
+                    <i className='devicon-javascript-plain colored'></i>
+                    <i className='devicon-python-plain colored'></i>
+                    <i className='devicon-java-plain colored'></i>
+                  </div>
+                </Carousel.Item>
+                <Carousel.Item>
+                  <h4>Frameworks & Libraries</h4>
+                  <div className='item' style={{ marginTop: '20px' }}>
+                    <i className='devicon-bootstrap-plain colored'></i>
+                    <i className='devicon-react-original colored'></i>
+                    <i className='devicon-vuejs-plain colored'></i>
+                    <i className='devicon-express-original'></i>
+                    <i className='devicon-nodejs-plain colored'></i>
+                    <i className='devicon-electron-original colored'></i>
+                    <i className='devicon-spring-plain colored'></i>
+                    <i className='devicon-jest-plain colored'></i>
+                  </div>
+                </Carousel.Item>
+                <Carousel.Item>
+                  <h4>Databases</h4>
+                  <div className='item' style={{ marginTop: '20px' }}>
+                    <i className='devicon-mongodb-plain colored'></i>
+                    <i className='devicon-mysql-plain colored'></i>
+                  </div>
+                </Carousel.Item>
+                <Carousel.Item>
+                  <h4>Tools</h4>
+                  <div className='item' style={{ marginTop: '20px' }}>
+                    <i className='devicon-docker-plain colored'></i>
+                    <i className='devicon-git-plain colored'></i>
+                    <i className='devicon-github-original'></i>
+                    <i className='devicon-eslint-original colored'></i>
+                    <i className='devicon-heroku-original colored'></i>
+                    <i className='devicon-jira-plain colored'></i>
+                    <i className='devicon-figma-plain colored'></i>
+                  </div>
+                </Carousel.Item>
+              </Carousel>
+            </div>
+          </Col>
+        </Row>
+      </Container>
+      <img className='background-image-left' src={colorSharp} alt='Image' />
+    </section>
+  );
+};
