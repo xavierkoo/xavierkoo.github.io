@@ -19,25 +19,25 @@ export const Projects = () => {
             description: "Full-stack web application to serve as an eCommerce platform for local businesses, employing HTML, CSS, Bootstrap, Vue.js, Node.js, Express.js, MongoDB.",
             imgUrl: supportLocal,
             projUrl: 'https://github.com/xavierkoo/support-local-backend',
-            depUrl: 'https://supportlocal.netlify.app'
+            depUrl: 'https://supportlocal.netlify.app',
         },
         {
             title: "Monster Slayer",
-            description: "Browser Game created with HTML, CSS, Bootstrap & VueJS.",
+            description: "Browser Game created with HTML, CSS, Bootstrap & Vue.js.",
             imgUrl: monster,
             projUrl: "https://github.com/xavierkoo/monster-slayer",
             depUrl: 'https://monster-slayer-vue-game.netlify.app/'
         },
         {
             title: "Hangman",
-            description: "Browser Game created with HTML, CSS, Javascript.",
+            description: "Browser Game created with HTML, CSS, JavaScript.",
             imgUrl: hangman,
             projUrl: "https://github.com/xavierkoo/hangman",
             depUrl: 'https://hangman-game-689910.netlify.app/'
         },
         {
             title: "Portfolio Website",
-            description: "Designing & developing a portfolio website with HTML, CSS, Bootstrap & ReactJS.",
+            description: "Designing & developing a portfolio website with HTML, CSS, Bootstrap & React.js.",
             imgUrl: portfolio,
             projUrl: "https://github.com/xavierkoo/portfolio-website",
             depUrl: 'https://github.com/xavierkoo/portfolio-website'
