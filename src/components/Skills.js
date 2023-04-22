@@ -59,6 +59,7 @@ export const Skills = () => {
                     <i className='devicon-docker-plain colored'></i>
                     <i className='devicon-git-plain colored'></i>
                     <i className='devicon-github-original'></i>
+                    <i class="devicon-intellij-plain colored"></i>
                     <i className='devicon-eslint-original colored'></i>
                     <i className='devicon-heroku-original colored'></i>
                     <i className='devicon-jira-plain colored'></i>
