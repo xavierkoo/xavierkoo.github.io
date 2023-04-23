@@ -17,9 +17,7 @@ export const Skills = () => {
             <div className='skill-bx'>
               <h2>Skills</h2>
               <p>
-                As an aspiring software engineer, I possess expertise in a wide range of technical
-                skills.
-                <br></br>I am passionate about my work and always eager to learn more.
+                My Technical Toolbox: Diverse Skills for Building Innovative Software Solutions.
               </p>
               <Carousel activeIndex={index} onSelect={handleSelect} style={{ height: '200px' }}>
                 <Carousel.Item>
