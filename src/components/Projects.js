@@ -19,7 +19,7 @@ export const Projects = () => {
             description: "Full-stack web application to serve as an eCommerce platform for local businesses, employing HTML, CSS, Bootstrap, Vue.js, Node.js, Express.js, MongoDB.",
             imgUrl: supportLocal,
             projUrl: 'https://github.com/xavierkoo/support-local-backend',
-            depUrl: 'https://supportlocal.netlify.app',
+            depUrl: 'https://support-local-frontend.onrender.com',
         },
         {
             title: "Monster Slayer",
@@ -40,7 +40,7 @@ export const Projects = () => {
             description: "Designing & developing a portfolio website with HTML, CSS, Bootstrap & React.js.",
             imgUrl: portfolio,
             projUrl: "https://github.com/xavierkoo/portfolio-website",
-            depUrl: 'https://github.com/xavierkoo/portfolio-website'
+            depUrl: 'https://xavier-koo.netlify.app/'
         },
     ];
 
@@ -67,7 +67,6 @@ export const Projects = () => {
             description: "UI/UX project of an app that motivate users to recycle.",
             imgUrl: irecycle,
             projUrl: "https://aaronkwah.dev/irecycle",
-            depUrl: "https://aaronkwah.dev/irecycle",
         },
     ];
     return (
