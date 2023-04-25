@@ -66,7 +66,7 @@ export const Projects = () => {
             title: "iRecycle",
             description: "UI/UX project of an app that motivate users to recycle.",
             imgUrl: irecycle,
-            projUrl: "https://aaronkwah.dev/irecycle",
+            depUrl: "https://aaronkwah.dev/irecycle",
         },
     ];
     return (

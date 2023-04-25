@@ -11,7 +11,11 @@ export const ProjectCard = ({ title, description, imgUrl, projUrl, depUrl }) => 
           <h4>{title}</h4>
           <span>{description}</span> <br/>
           <span className="social-icon mt-2"> 
-            <a href={projUrl} target="_blank"><img src={navIcon2} alt="" /></a>
+            {projUrl && (
+              <a href={projUrl} target="_blank">
+                <img src={navIcon2} alt="" />
+              </a>
+            )}
             {depUrl && (
               <a href={depUrl} target="_blank">
                 <img src={windowIcon} alt="" />
