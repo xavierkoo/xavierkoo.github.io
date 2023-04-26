@@ -8,12 +8,19 @@ import kaggle from "../assets/img/kaggle.png";
 import ev from "../assets/img/ev.png";
 import irecycle from "../assets/img/irecycle.png";
 import colorSharp2 from "../assets/img/color-sharp2.webp";
+import greenventure from "../assets/img/greenventure.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
 export const Projects = () => {
 
     const softwareProjects = [
+        {
+            title: "GreenVenture",
+            description: "GreenVenture is a mobile application that incentivizes users to recycle by providing rewards. Microservices-based architecture that utilizes OAuth2 with Facebook SSO Login for authentication, Vue.js and React.js, Flask and Node.js + Express.js, MySQL and MongoDB, and employs Docker, LavinMQ, and nodemailer.",
+            imgUrl: greenventure,
+            projUrl: 'https://github.com/xavierkoo/greenventure-main',
+        },
         {
             title: "Support Local",
             description: "Full-stack web application to serve as an eCommerce platform for local businesses, employing HTML, CSS, Bootstrap, Vue.js, Node.js, Express.js, MongoDB.",

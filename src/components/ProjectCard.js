@@ -9,7 +9,7 @@ export const ProjectCard = ({ title, description, imgUrl, projUrl, depUrl }) => 
         <img src={imgUrl} alt="project-image"/>
         <div className="proj-txtx">
           <h4>{title}</h4>
-          <span>{description}</span> <br/>
+          <span style={{padding: '10px', fontSize: '12px'}}>{description}</span> <br/>
           <span className="social-icon mt-2"> 
             {projUrl && (
               <a href={projUrl} target="_blank">
