@@ -7,6 +7,8 @@ import portfolio from "../assets/img/portfolio.png";
 import kaggle from "../assets/img/kaggle.png";
 import ev from "../assets/img/ev.png";
 import irecycle from "../assets/img/irecycle.png";
+import oracle from "../assets/img/oracle.png";
+import heicoders from "../assets/img/heicoders.png";
 import colorSharp2 from "../assets/img/color-sharp2.webp";
 import greenventure from "../assets/img/greenventure.png";
 import 'animate.css';
@@ -75,6 +77,18 @@ export const Projects = () => {
             imgUrl: irecycle,
             depUrl: "https://aaronkwah.dev/irecycle",
         },
+        {
+            title: "Oracle Certified Associate, Java",
+            description: "Oracle Java Certification.",
+            imgUrl: oracle,
+            depUrl: "https://catalog-education.oracle.com/pls/certview/sharebadge?id=7021571107EBACF10CEBF555B3AA492FCB2EEC46A68DADBD70477A29390A6EB4",
+        },
+        {
+            title: "AI200: Applied Machine Learning",
+            description: "Machine Learning course by Heicoders Academy.",
+            imgUrl: heicoders,
+            depUrl: "https://cert.heicodersacademy.com/KoGXmhqZKWhwICc8",
+        },
     ];
     return (
         <section className="project" id="project">
@@ -84,7 +98,7 @@ export const Projects = () => {
                     <TrackVisibility>
                         {({ isVisible }) =>
                         <div className={isVisible ? "animate__animated animate__fadeIn": ""} >
-                            <h2>Projects</h2>
+                            <h2>Projects & Certifications</h2>
                             <Tab.Container id="projects-tabs" defaultActiveKey="first">
                             <Nav variant="pills" className="nav-pills mb-5 mt-3 justify-content-center align-items-center" id="pills-tab">
                                 <Nav.Item>
