@@ -65,6 +65,18 @@ export const Projects = () => {
 
     const miscProjects = [
         {
+            title: "Oracle Certified Foundations Associate, Java",
+            description: "Oracle Java Certification.",
+            imgUrl: oracle,
+            depUrl: "https://catalog-education.oracle.com/pls/certview/sharebadge?id=7021571107EBACF10CEBF555B3AA492FCB2EEC46A68DADBD70477A29390A6EB4",
+        },
+        {
+            title: "AI200: Applied Machine Learning",
+            description: "Machine Learning course by Heicoders Academy.",
+            imgUrl: heicoders,
+            depUrl: "https://cert.heicodersacademy.com/KoGXmhqZKWhwICc8",
+        },
+        {
             title: "EV Charging Model",
             description: "Spreadsheet Modelling & Analytics that explores EV charging in Singapore.",
             imgUrl: ev,
@@ -76,18 +88,6 @@ export const Projects = () => {
             description: "UI/UX project of an app that motivate users to recycle.",
             imgUrl: irecycle,
             depUrl: "https://aaronkwah.dev/irecycle",
-        },
-        {
-            title: "Oracle Certified Associate, Java",
-            description: "Oracle Java Certification.",
-            imgUrl: oracle,
-            depUrl: "https://catalog-education.oracle.com/pls/certview/sharebadge?id=7021571107EBACF10CEBF555B3AA492FCB2EEC46A68DADBD70477A29390A6EB4",
-        },
-        {
-            title: "AI200: Applied Machine Learning",
-            description: "Machine Learning course by Heicoders Academy.",
-            imgUrl: heicoders,
-            depUrl: "https://cert.heicodersacademy.com/KoGXmhqZKWhwICc8",
         },
     ];
     return (

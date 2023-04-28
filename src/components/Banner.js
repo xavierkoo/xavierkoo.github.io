@@ -67,7 +67,7 @@ export const Banner = () => {
                             </span>
                             <hr className="bg-secondary mt-0 border-2 border-top border-secondary"></hr>
                             <p>Aspiring software engineer passionate about Full Stack Development, Artificial Intelligence and Machine Learning.</p>
-                            <p> Sophomore pursuing a BSc Information Systems (IS) at Singapore Management University (SMU) with double majors in Software Design & Development and Artificial Intelligence.</p>
+                            <p> Penultimate Undergraduate pursuing a BSc Information Systems (IS) at Singapore Management University (SMU) with Double Major in Digitalisation & Cloud Solutions (Software Design & Development) and Computer Science (Artificial Intelligence).</p>
                         </h1>
                     </Col>
                     <Col xs={12} md={6} xl={5} className="mt-5">
