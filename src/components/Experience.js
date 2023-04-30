@@ -72,10 +72,16 @@ export const Experience = () => {
                                     <Typography  fontWeight="bold" variant="h5" component="span">
                                     Technical Writer <Typography variant="h5" color="secondary">@Medium Blog</Typography>
                                     </Typography>
-                                        <Typography>
-                                            Authored a technical blog on software engineering, producing 33 articles covering topics such as data structures &
-                                            algorithms, technologies & frameworks, and essential skills which received 2600 views and 178 followers to date.        
-                                        </Typography>
+                                        
+                                        <ul>
+                                            <li>
+                                                <Typography>
+                                                    Authored a technical blog on software engineering, producing 33 articles covering topics such as data structures &
+                                                    algorithms, technologies & frameworks, and essential skills which received 2600 views and 178 followers to date.        
+                                                </Typography>
+                                            </li>
+                                        </ul>
+                                            
                                     </TimelineContent>
                                 </TimelineItem>
                                 <TimelineItem>
