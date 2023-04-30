@@ -11,12 +11,19 @@ import oracle from "../assets/img/oracle.png";
 import heicoders from "../assets/img/heicoders.png";
 import colorSharp2 from "../assets/img/color-sharp2.webp";
 import greenventure from "../assets/img/greenventure.png";
+import leapaheadx from "../assets/img/leapaheadx.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
 export const Projects = () => {
 
     const softwareProjects = [
+        {
+            title: "LeapAheadX",
+            description: "LeapAheadX is a form management system to digitalize the form management processes of the client company Quantum Leap. Developed with Object-Oriented Programming (OOP) principles, Vue.js/Vite, Bootstrap, Sass, Spring Boot MVC, and MySQL.",
+            imgUrl: leapaheadx,
+            projUrl: 'https://github.com/xavierkoo/leapaheadx',
+        },
         {
             title: "GreenVenture",
             description: "GreenVenture is a mobile application that incentivizes users to recycle by providing rewards. Microservices-based architecture that utilizes OAuth2 with Facebook SSO Login for authentication, Vue.js and React.js, Flask and Node.js + Express.js, MySQL and MongoDB, and employs Docker, LavinMQ, and nodemailer.",
