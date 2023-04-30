@@ -21,7 +21,7 @@ export const Experience = () => {
                         <h2 className="m-5" style={{ fontSize: '45px', fontWeight: '700', textAlign: 'center' }}>
                             Experiences
                         </h2>
-                            <Timeline position="alternate">
+                            <Timeline position="right">
                                 <TimelineItem>
                                     <TimelineOppositeContent
                                     sx={{ m: "auto 0" }}
@@ -72,16 +72,14 @@ export const Experience = () => {
                                     <Typography  fontWeight="bold" variant="h5" component="span">
                                     Technical Writer <Typography variant="h5" color="secondary">@Medium Blog</Typography>
                                     </Typography>
-                                        
-                                        <ul>
-                                            <li>
-                                                <Typography>
-                                                    Authored a technical blog on software engineering, producing 33 articles covering topics such as data structures &
-                                                    algorithms, technologies & frameworks, and essential skills which received 2600 views and 178 followers to date.        
-                                                </Typography>
-                                            </li>
-                                        </ul>
-                                            
+                                    <ul>
+                                        <li>
+                                            <Typography>
+                                                Authored a technical blog on software engineering, producing 33 articles covering topics such as data structures &
+                                                algorithms, technologies & frameworks, and essential skills which received 2600 views and 178 followers to date.        
+                                            </Typography>
+                                        </li>
+                                    </ul>                                          
                                     </TimelineContent>
                                 </TimelineItem>
                                 <TimelineItem>
