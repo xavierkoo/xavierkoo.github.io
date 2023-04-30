@@ -22,7 +22,7 @@ export const Skills = () => {
               <Carousel activeIndex={index} onSelect={handleSelect} style={{ height: '200px' }}>
                 <Carousel.Item>
                   <h4>Languages</h4>
-                  <div className='item' style={{ marginTop: '20px' }}>
+                  <div className='item' style={{ marginTop: '20px', height: '100px', overflowX: 'auto', whiteSpace: 'nowrap' }}>
                     <i className='devicon-html5-plain colored'></i>
                     <i className='devicon-css3-plain colored'></i>
                     <i className='devicon-sass-original colored'></i>
@@ -33,7 +33,7 @@ export const Skills = () => {
                 </Carousel.Item>
                 <Carousel.Item>
                   <h4>Frameworks & Libraries</h4>
-                  <div className='item' style={{ marginTop: '20px' }}>
+                  <div className='item' style={{ marginTop: '20px', height: '100px', overflowX: 'auto', whiteSpace: 'nowrap' }}>
                     <i className='devicon-bootstrap-plain colored'></i>
                     <i className='devicon-react-original colored'></i>
                     <i className='devicon-vuejs-plain colored'></i>
@@ -46,14 +46,14 @@ export const Skills = () => {
                 </Carousel.Item>
                 <Carousel.Item>
                   <h4>Databases</h4>
-                  <div className='item' style={{ marginTop: '20px' }}>
+                  <div className='item' style={{ marginTop: '20px', height: '100px', overflowX: 'auto', whiteSpace: 'nowrap' }}>
                     <i className='devicon-mongodb-plain colored'></i>
                     <i className='devicon-mysql-plain colored'></i>
                   </div>
                 </Carousel.Item>
                 <Carousel.Item>
                   <h4>Tools</h4>
-                  <div className='item' style={{ marginTop: '20px' }}>
+                  <div className='item' style={{ marginTop: '20px', height: '100px', overflowX: 'auto', whiteSpace: 'nowrap' }}>
                     <i className='devicon-docker-plain colored'></i>
                     <i className='devicon-git-plain colored'></i>
                     <i className='devicon-github-original'></i>
