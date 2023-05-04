@@ -55,8 +55,8 @@ export const Projects = () => {
             title: "Portfolio Website",
             description: "Designing & developing a portfolio website with HTML, CSS, Bootstrap & React.js.",
             imgUrl: portfolio,
-            projUrl: "https://github.com/xavierkoo/portfolio-website",
-            depUrl: 'https://xavier-koo.netlify.app/'
+            projUrl: "https://github.com/xavierkoo/xavierkoo.github.io",
+            depUrl: 'https://xavierkoo.github.io/'
         },
     ];
 
