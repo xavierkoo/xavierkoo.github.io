@@ -1,4 +1,5 @@
 {
+  "homepage": "https://xavierkoo.github.io/portfolio-website",
   "name": "portfolio-website",
   "version": "0.1.0",
   "private": true,
@@ -27,6 +28,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",  
     "start": "node_modules/react-scripts/bin/react-scripts.js start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -45,6 +48,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^5.0.0",
     "react-router-dom": "^6.5.0"
   }
 }
