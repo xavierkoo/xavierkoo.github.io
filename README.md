@@ -2,7 +2,7 @@
 
 This portfolio website was created to showcase my technical skills, experience and personal projects.
 
-Deployed on Netlify: https://xavier-koo.netlify.app/
+Deployed on Github Pages: https://xavierkoo.github.io/
 
 ## Tech Stack
 
