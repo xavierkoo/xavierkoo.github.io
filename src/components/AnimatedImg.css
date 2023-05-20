@@ -305,3 +305,22 @@
       transform: scale(0.96);
     }
   }
+
+  .animated-img-container {
+    max-width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+  }
+  
+  .animated-img-container svg {
+    width: 100%;
+    height: auto;
+  }
+  
+  @media (max-width: 768px) {
+    .animated-img-container svg {
+      transform: scale(1.0);
+      transform-origin: top left;
+    }
+  }
+  
