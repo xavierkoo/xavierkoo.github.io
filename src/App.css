@@ -635,21 +635,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 @media (max-width: 768px) {
-  .item-experience i {
-    font-size: 18px;
+  .item-exp {
+    display: none;
   }
 }
-
-.item-experience {
-  overflow: hidden;
-}
-
-.item-experience i {
-  font-size: 50px; /* Adjust the font size according to your needs */
-}
-
-@media (max-width: 768px) {
-  .item-experience i {
-    font-size: 30px; /* Adjust the font size for mobile view */
-  }
-}
+ 

@@ -43,13 +43,15 @@ export const Experience = () => {
                                     Software Engineer <Typography variant="h5" color="secondary">@Asterisk Technologies</Typography>
                                     </Typography>
                                     <Typography></Typography> {/* TODO: add description in list */}
-                                    <i class="devicon-bootstrap-plain colored" style={{ fontSize: '50px' }}></i>
-                                    <i class="devicon-react-original colored" style={{ fontSize: '50px' }}></i>
-                                    <i class="devicon-express-original" style={{ fontSize: '50px' }}></i>
-                                    <i class="devicon-nodejs-plain colored" style={{ fontSize: '50px' }}></i>
-                                    <i class="devicon-electron-original colored" style={{ fontSize: '50px' }}></i>
-                                    <i class="devicon-jest-plain colored" style={{ fontSize: '50px' }}></i>
-                                    <i class="devicon-mongodb-plain colored" style={{ fontSize: '50px' }}></i>
+                                    <div className="item-exp">
+                                        <i class="devicon-bootstrap-plain colored" style={{ fontSize: '50px' }}></i>
+                                        <i class="devicon-react-original colored" style={{ fontSize: '50px' }}></i>
+                                        <i class="devicon-express-original" style={{ fontSize: '50px' }}></i>
+                                        <i class="devicon-nodejs-plain colored" style={{ fontSize: '50px' }}></i>
+                                        <i class="devicon-electron-original colored" style={{ fontSize: '50px' }}></i>
+                                        <i class="devicon-jest-plain colored" style={{ fontSize: '50px' }}></i>
+                                        <i class="devicon-mongodb-plain colored" style={{ fontSize: '50px' }}></i>
+                                    </div>
                                     </TimelineContent>
                                 </TimelineItem>
                                 <TimelineItem>
