@@ -348,6 +348,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   z-index: -4;
 }
 
+@media (max-width: 768px) {
+  .skill-container {
+    /* Add styles for mobile view */
+    max-width: 90%;
+    margin: 0 auto;
+  }
+}
+
 /* ProjectCard CSS */
 .project {
   padding: 80px 0;
@@ -624,4 +632,24 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   color: #B8B8B8;
   letter-spacing: 0.5px;
   margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .item-experience i {
+    font-size: 18px;
+  }
+}
+
+.item-experience {
+  overflow: hidden;
+}
+
+.item-experience i {
+  font-size: 50px; /* Adjust the font size according to your needs */
+}
+
+@media (max-width: 768px) {
+  .item-experience i {
+    font-size: 30px; /* Adjust the font size for mobile view */
+  }
 }
