@@ -10,7 +10,7 @@ export const Banner = () => {
     // which element in the toCycle list is being deleted
     const [isDeleting, setIsDeleting] = useState(0);
     // list of words to cycle through
-    const toCycle = [ "Full Stack Development", "Artificial Intelligence", "Machine Learning"];
+    const toCycle = [ "Full Stack Dev", "Artificial Intelligence", "Machine Learning"];
     // set the text to display from toCycle
     const [text, setText] = useState('');
     // determines how fast each letter is typed, simulate typing
@@ -61,8 +61,8 @@ export const Banner = () => {
                     <Col xs={12} md={6} xl={7}>
                         <span className="tagline">Hello there 👋</span>
                         <h1>
-                            <span>{`I'm Xavier Koo `}</span><br></br>
-                            <span className="wrap text-secondary">
+                            <span className="name">{`I'm Xavier Koo `}</span><br></br>
+                            <span className="wrap text-secondary mt-4 mb-2" style={{ height: '40px', display: 'flex', alignItems: 'center' }}>
                                 {text}
                             </span>
                             <hr className="bg-secondary mt-0 border-2 border-top border-secondary"></hr>

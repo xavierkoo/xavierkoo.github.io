@@ -307,6 +307,18 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-right: 0.08em solid #666;
 }
 
+@media (max-width: 768px) {
+  .wrap {
+    font-size: 35px; /* Adjust the font size as per your requirements */
+  }
+  .name {
+    font-size: 30px; /* Adjust the font size as per your requirements */
+  }
+  .tagline {
+    font-size: 30px;;
+  }
+}
+
 /* Skills CSS */
 .item {
   margin-top: 50px;
@@ -334,10 +346,28 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     line-height: 1.5em;
     margin: 14px 0 75px 0;
 }
-
+@media (max-width: 768px) {
+  .skill p {
+    font-size: 14px;
+  }
+}
 .skill-slider .item3 img {
   width: 33%;
   margin: 0 auto 30px auto;
+}
+@media (max-width: 768px) {
+  .desktop-container {
+    display: none; /* Hide the desktop container on mobile */
+  }
+  .mobile-skill i {
+    font-size: 27px;
+  }
+}
+
+@media (min-width: 769px) {
+  .mobile-container {
+    display: none; /* Hide the mobile container on desktop */
+  }
 }
 
 .background-image-left {
