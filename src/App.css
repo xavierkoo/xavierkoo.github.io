@@ -634,9 +634,15 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-top: 20px;
 }
 
+.item-exp i {
+  /* Default font size for larger screen sizes */
+  font-size: 50px;
+}
+
 @media (max-width: 768px) {
-  .item-exp {
-    display: none;
+  .item-exp i {
+    /* Font size for mobile devices */
+    font-size: 26px;
   }
 }
  

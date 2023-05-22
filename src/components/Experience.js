@@ -1,11 +1,10 @@
 import * as React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Timeline from "@mui/lab/Timeline";
-import TimelineItem from "@mui/lab/TimelineItem";
+import TimelineItem, { timelineItemClasses } from "@mui/lab/TimelineItem";
 import TimelineSeparator from "@mui/lab/TimelineSeparator";
 import TimelineConnector from "@mui/lab/TimelineConnector";
 import TimelineContent from "@mui/lab/TimelineContent";
-import TimelineOppositeContent from "@mui/lab/TimelineOppositeContent";
 import TimelineDot from "@mui/lab/TimelineDot";
 import CodeIcon from '@mui/icons-material/Code';
 import Typography from "@mui/material/Typography";
@@ -21,58 +20,56 @@ export const Experience = () => {
                         <h2 className="m-5" style={{ fontSize: '45px', fontWeight: '700', textAlign: 'center' }}>
                             Experiences
                         </h2>
-                            <Timeline position="right">
+                            <Timeline 
+                                sx={{
+                                    [`& .${timelineItemClasses.root}:before`]: {
+                                        flex: 0,
+                                        padding: 0,
+                                    },
+                                }}
+                            >
                                 <TimelineItem>
-                                    <TimelineOppositeContent
-                                    sx={{ m: "auto 0" }}
-                                    align="right"
-                                    variant="h6"
-                                    color="text.dark"
-                                    >
-                                    Feb 2023 - Present
-                                    </TimelineOppositeContent>
                                     <TimelineSeparator>
-                                    <TimelineConnector  />
-                                    <TimelineDot color="secondary">
-                                        <CodeIcon />
-                                    </TimelineDot>
-                                    <TimelineConnector />
+                                        <TimelineConnector  />
+                                        <TimelineDot color="secondary">
+                                            <CodeIcon />
+                                        </TimelineDot>
+                                        <TimelineConnector />
                                     </TimelineSeparator>
-                                    <TimelineContent sx={{ py: "12px", px: 2 }}>
+                                    <TimelineContent sx={{ py: "15px", px: 2 }}>
+                                    <Typography variant="p" component="span">
+                                        Feb 2023 - Present
+                                    </Typography> <br />
                                     <Typography  fontWeight="bold" variant="h5" component="span">
-                                    Software Engineer <Typography variant="h5" color="secondary">@Asterisk Technologies</Typography>
+                                        Software Engineer <Typography variant="h5" color="secondary">@Asterisk Technologies</Typography>
                                     </Typography>
                                     <Typography></Typography> {/* TODO: add description in list */}
-                                    <div className="item-exp">
-                                        <i class="devicon-bootstrap-plain colored" style={{ fontSize: '50px' }}></i>
-                                        <i class="devicon-react-original colored" style={{ fontSize: '50px' }}></i>
-                                        <i class="devicon-express-original" style={{ fontSize: '50px' }}></i>
-                                        <i class="devicon-nodejs-plain colored" style={{ fontSize: '50px' }}></i>
-                                        <i class="devicon-electron-original colored" style={{ fontSize: '50px' }}></i>
-                                        <i class="devicon-jest-plain colored" style={{ fontSize: '50px' }}></i>
-                                        <i class="devicon-mongodb-plain colored" style={{ fontSize: '50px' }}></i>
+                                    <div className="item-exp mt-1">
+                                        <i class="devicon-bootstrap-plain colored"></i>
+                                        <i class="devicon-sass-plain colored"></i>
+                                        <i class="devicon-react-original colored"></i>
+                                        <i class="devicon-express-original"></i>
+                                        <i class="devicon-nodejs-plain colored"></i>
+                                        <i class="devicon-electron-original colored"></i>
+                                        <i class="devicon-jest-plain colored"></i>
+                                        <i class="devicon-mongodb-plain colored"></i>
                                     </div>
                                     </TimelineContent>
                                 </TimelineItem>
                                 <TimelineItem>
-                                    <TimelineOppositeContent
-                                    sx={{ m: "auto 0" }}
-                                    align="right"
-                                    variant="h6"
-                                    color="text.dark"
-                                    >
-                                    Jan 2023 - Present
-                                    </TimelineOppositeContent>
                                     <TimelineSeparator>
-                                    <TimelineConnector  />
-                                    <TimelineDot color="secondary">
-                                        <CodeIcon />
-                                    </TimelineDot>
-                                    <TimelineConnector />
-                                    </TimelineSeparator>
-                                    <TimelineContent sx={{ py: "12px", px: 2 }}>
+                                        <TimelineConnector  />
+                                        <TimelineDot color="secondary">
+                                            <CodeIcon />
+                                        </TimelineDot>
+                                        <TimelineConnector />
+                                    </TimelineSeparator>                                
+                                    <TimelineContent sx={{ py: "15px", px: 2 }}>
+                                    <Typography variant="p" component="span">
+                                        Jan 2023 - Present
+                                    </Typography> <br />
                                     <Typography  fontWeight="bold" variant="h5" component="span">
-                                    Technical Writer <Typography variant="h5" color="secondary">@Medium Blog</Typography>
+                                        Technical Writer <Typography variant="h5" color="secondary">@Medium Blog</Typography>
                                     </Typography>
                                     <ul>
                                         <li>
@@ -85,22 +82,17 @@ export const Experience = () => {
                                     </TimelineContent>
                                 </TimelineItem>
                                 <TimelineItem>
-                                    <TimelineOppositeContent
-                                    sx={{ m: "auto 0" }}
-                                    align="right"
-                                    variant="h6"
-                                    color="text.dark"
-                                    >
-                                    Dec 2018 - Jan 2021
-                                    </TimelineOppositeContent>
                                     <TimelineSeparator>
-                                    <TimelineConnector  />
-                                    <TimelineDot color="secondary">
-                                        <CodeIcon />
-                                    </TimelineDot>
-                                    <TimelineConnector />
+                                        <TimelineConnector  />
+                                        <TimelineDot color="secondary">
+                                            <CodeIcon />
+                                        </TimelineDot>
+                                        <TimelineConnector />
                                     </TimelineSeparator>
-                                    <TimelineContent sx={{ py: "12px", px: 2 }}>
+                                    <TimelineContent sx={{ py: "15px", px: 2 }}>
+                                    <Typography variant="p" component="span">
+                                        Dec 2018 - Jan 2021
+                                    </Typography> <br />
                                     <Typography  fontWeight="bold" variant="h5" component="span">
                                         Pilot Trainee <Typography variant="h5" color="secondary">@Republic Of Singapore Air Force</Typography>
                                     </Typography>
@@ -111,7 +103,6 @@ export const Experience = () => {
                                     </TimelineContent>
                                 </TimelineItem>
                             </Timeline>
-
                         </div>
                         
                     </Col>
