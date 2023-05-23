@@ -51,7 +51,7 @@ export const NavBar = () => {
                         <a href="https://www.linkedin.com/in/xavier-koo/" target="_blank"><img src={navIcon1} alt="" /></a>
                         <a href="https://github.com/xavierkoo" target="_blank"><img src={navIcon2} alt="" /></a>
                         <a href="mailto:xavier.koo.2021@scis.smu.edu.sg" target="_blank"><img src={navIcon4} alt="" /></a>
-                        <a href="https://github.com/xavierkoo/portfolio-website/raw/main/public/Xavier-Koo-Resume.pdf" target="_blank"><img src={navIcon3} alt="" /></a>
+                        <a href="https://github.com/xavierkoo/portfolio-website/raw/main/public/Xavier-Koo-Resume.pdf"><img src={navIcon3} alt="" /></a>
                     </div>
                 </span>
                 </Navbar.Collapse>
