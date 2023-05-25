@@ -25,45 +25,45 @@ export const Skills = () => {
                     <Carousel.Item>
                       <h4>Languages</h4>
                       <div className='item' style={{ marginTop: '20px', height: '100px', overflowX: 'auto', whiteSpace: 'nowrap' }}>
-                        <i className='devicon-html5-plain colored'></i>
-                        <i className='devicon-css3-plain colored'></i>
-                        <i className='devicon-sass-original colored'></i>
-                        <i className='devicon-javascript-plain colored'></i>
-                        <i className='devicon-python-plain colored'></i>
-                        <i className='devicon-java-plain colored'></i>
+                        <i className='devicon-html5-plain colored' title='HTML5'></i>
+                        <i className='devicon-css3-plain colored' title='CSS3'></i>
+                        <i className='devicon-sass-original colored' title='Sass'></i>
+                        <i className='devicon-javascript-plain colored' title='JavaScript'></i>
+                        <i className='devicon-python-plain colored' title='Python'></i>
+                        <i className='devicon-java-plain colored' title='Java'></i>
                       </div>
                     </Carousel.Item>
                     <Carousel.Item>
                       <h4>Frameworks & Libraries</h4>
                       <div className='item' style={{ marginTop: '20px', height: '100px', overflowX: 'auto', whiteSpace: 'nowrap' }}>
-                        <i className='devicon-bootstrap-plain colored'></i>
-                        <i className='devicon-react-original colored'></i>
-                        <i className='devicon-vuejs-plain colored'></i>
-                        <i className='devicon-express-original'></i>
-                        <i className='devicon-nodejs-plain colored'></i>
-                        <i className='devicon-electron-original colored'></i>
-                        <i className='devicon-spring-plain colored'></i>
-                        <i className='devicon-jest-plain colored'></i>
+                        <i className='devicon-bootstrap-plain colored' title='Bootstrap'></i>
+                        <i className='devicon-react-original colored' title='React.js'></i>
+                        <i className='devicon-vuejs-plain colored' title='Vue.js'></i>
+                        <i className='devicon-express-original' title='Express.js'></i>
+                        <i className='devicon-nodejs-plain colored' title='Node.js'></i>
+                        <i className='devicon-electron-original colored' title='Electron.js'></i>
+                        <i className='devicon-spring-plain colored' title='Spring/Spring Boot'></i>
+                        <i className='devicon-jest-plain colored' title='Jest'></i>
                       </div>
                     </Carousel.Item>
                     <Carousel.Item>
                       <h4>Databases</h4>
                       <div className='item' style={{ marginTop: '20px', height: '100px', overflowX: 'auto', whiteSpace: 'nowrap' }}>
-                        <i className='devicon-mongodb-plain colored'></i>
-                        <i className='devicon-mysql-plain colored'></i>
+                        <i className='devicon-mongodb-plain colored' title='MongoDB'></i>
+                        <i className='devicon-mysql-plain colored' title='MySQL'></i>
                       </div>
                     </Carousel.Item>
                     <Carousel.Item>
                       <h4>Tools</h4>
                       <div className='item' style={{ marginTop: '20px', height: '100px', overflowX: 'auto', whiteSpace: 'nowrap' }}>
-                        <i className='devicon-docker-plain colored'></i>
-                        <i className='devicon-git-plain colored'></i>
-                        <i className='devicon-github-original'></i>
-                        <i class="devicon-intellij-plain colored"></i>
-                        <i className='devicon-eslint-original colored'></i>
-                        <i className='devicon-heroku-original colored'></i>
-                        <i className='devicon-jira-plain colored'></i>
-                        <i className='devicon-figma-plain colored'></i>
+                        <i className='devicon-docker-plain colored' title='Docker'></i>
+                        <i className='devicon-git-plain colored' title='Git'></i>
+                        <i className='devicon-github-original' title='GitHub'></i>
+                        <i class="devicon-intellij-plain colored" title='IntelliJ IDEA'></i>
+                        <i className='devicon-eslint-original colored' title="ESLint"></i>
+                        <i className='devicon-heroku-original colored' title='Heroku'></i>
+                        <i className='devicon-jira-plain colored' title='Jira'></i>
+                        <i className='devicon-figma-plain colored' title='Figma'></i>
                       </div>
                     </Carousel.Item>
                   </Carousel>
@@ -71,39 +71,39 @@ export const Skills = () => {
                 <div className='mobile-container'>
                   <h5>Languages</h5>
                   <div className='mobile-skill'>
-                    <i className='devicon-html5-plain colored'></i>
-                    <i className='devicon-css3-plain colored'></i>
-                    <i className='devicon-sass-original colored'></i>
-                    <i className='devicon-javascript-plain colored'></i>
-                    <i className='devicon-python-plain colored'></i>
-                    <i className='devicon-java-plain colored'></i>
+                    <i className='devicon-html5-plain colored' title='HTML5'></i>
+                    <i className='devicon-css3-plain colored' title='CSS3'></i>
+                    <i className='devicon-sass-original colored' title='Sass'></i>
+                    <i className='devicon-javascript-plain colored' title='JavaScript'></i>
+                    <i className='devicon-python-plain colored' title='Python'></i>
+                    <i className='devicon-java-plain colored' title='Java'></i>
                   </div>
                   <h5 className='mt-4'>Frameworks & Libraries</h5>
                   <div className='mobile-skill'>
-                    <i className='devicon-bootstrap-plain colored'></i>
-                    <i className='devicon-react-original colored'></i>
-                    <i className='devicon-vuejs-plain colored'></i>
-                    <i className='devicon-express-original'></i> <br />
-                    <i className='devicon-nodejs-plain colored'></i>
-                    <i className='devicon-electron-original colored'></i>
-                    <i className='devicon-spring-plain colored'></i>
-                    <i className='devicon-jest-plain colored'></i>
+                    <i className='devicon-bootstrap-plain colored' title='Bootstrap'></i>
+                    <i className='devicon-react-original colored' title='React.js'></i>
+                    <i className='devicon-vuejs-plain colored' title='Vue.js'></i>
+                    <i className='devicon-express-original' title='Express.js'></i>
+                    <i className='devicon-nodejs-plain colored' title='Node.js'></i>
+                    <i className='devicon-electron-original colored' title='Electron.js'></i>
+                    <i className='devicon-spring-plain colored' title='Spring/Spring Boot'></i>
+                    <i className='devicon-jest-plain colored' title='Jest'></i>
                   </div>
                   <h5 className='mt-4'>Databases</h5>
                   <div className='mobile-skill'>
-                    <i className='devicon-mongodb-plain colored'></i>
-                    <i className='devicon-mysql-plain colored'></i>
+                    <i className='devicon-mongodb-plain colored' title='MongoDB'></i>
+                    <i className='devicon-mysql-plain colored' title='MySQL'></i>
                   </div>
                   <h5 className='mt-4'>Tools</h5>
                   <div className='mobile-skill'>
-                    <i className='devicon-docker-plain colored'></i>
-                    <i className='devicon-git-plain colored'></i>
-                    <i className='devicon-github-original'></i>
-                    <i class="devicon-intellij-plain colored"></i> <br />
-                    <i className='devicon-eslint-original colored'></i>
-                    <i className='devicon-heroku-original colored'></i>
-                    <i className='devicon-jira-plain colored'></i>
-                    <i className='devicon-figma-plain colored'></i>
+                    <i className='devicon-docker-plain colored' title='Docker'></i>
+                    <i className='devicon-git-plain colored' title='Git'></i>
+                    <i className='devicon-github-original' title='GitHub'></i>
+                    <i class="devicon-intellij-plain colored" title='IntelliJ IDEA'></i>
+                    <i className='devicon-eslint-original colored' title="ESLint"></i>
+                    <i className='devicon-heroku-original colored' title='Heroku'></i>
+                    <i className='devicon-jira-plain colored' title='Jira'></i>
+                    <i className='devicon-figma-plain colored' title='Figma'></i>
                   </div>
                 </div>
               </div>

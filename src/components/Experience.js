@@ -46,16 +46,16 @@ export const Experience = () => {
                                         </Typography>
                                         <Typography></Typography> {/* TODO: add description in list */}
                                         <div className="item-exp mt-1">
-                                            <i class="devicon-bootstrap-plain colored"></i>
-                                            <i class="devicon-sass-plain colored"></i>
-                                            <i class="devicon-react-original colored"></i>
-                                            <i class="devicon-express-original"></i>
-                                            <i class="devicon-nodejs-plain colored"></i>
+                                            <i class="devicon-bootstrap-plain colored" title="Bootstrap"></i>
+                                            <i class="devicon-sass-plain colored" title="Sass"></i>
+                                            <i class="devicon-react-original colored" title="React.js"></i>
+                                            <i class="devicon-express-original" title="Express.js"></i>
+                                            <i class="devicon-nodejs-plain colored" title="Node.js"></i>
                                             {isMobile && <br />}
-                                            <i class="devicon-electron-original colored"></i>
-                                            <i class="devicon-jest-plain colored"></i>
-                                            <i class="devicon-eslint-plain colored"></i>
-                                            <i class="devicon-mongodb-plain colored"></i>
+                                            <i class="devicon-electron-original colored" title="Electron.js"></i>
+                                            <i class="devicon-jest-plain colored" title="Jest"></i>
+                                            <i class="devicon-eslint-plain colored" title="ESLint"></i>
+                                            <i class="devicon-mongodb-plain colored" title="MongoDB"></i>
                                         </div>
                                         </TimelineContent>
                                     </TimelineItem>
