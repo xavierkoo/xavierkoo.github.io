@@ -61,6 +61,7 @@ export const Skills = () => {
                         <i className='devicon-github-original' title='GitHub'></i>
                         <i class="devicon-intellij-plain colored" title='IntelliJ IDEA'></i>
                         <i className='devicon-eslint-original colored' title="ESLint"></i>
+                        <i class="devicon-npm-original-wordmark colored" title='npm'></i>
                         <i className='devicon-heroku-original colored' title='Heroku'></i>
                         <i className='devicon-jira-plain colored' title='Jira'></i>
                         <i className='devicon-figma-plain colored' title='Figma'></i>
@@ -83,7 +84,7 @@ export const Skills = () => {
                     <i className='devicon-bootstrap-plain colored' title='Bootstrap'></i>
                     <i className='devicon-react-original colored' title='React.js'></i>
                     <i className='devicon-vuejs-plain colored' title='Vue.js'></i>
-                    <i className='devicon-express-original' title='Express.js'></i>
+                    <i className='devicon-express-original' title='Express.js'></i> <br />
                     <i className='devicon-nodejs-plain colored' title='Node.js'></i>
                     <i className='devicon-electron-original colored' title='Electron.js'></i>
                     <i className='devicon-spring-plain colored' title='Spring/Spring Boot'></i>
@@ -99,7 +100,8 @@ export const Skills = () => {
                     <i className='devicon-docker-plain colored' title='Docker'></i>
                     <i className='devicon-git-plain colored' title='Git'></i>
                     <i className='devicon-github-original' title='GitHub'></i>
-                    <i class="devicon-intellij-plain colored" title='IntelliJ IDEA'></i>
+                    <i class="devicon-npm-original-wordmark colored" title='npm'></i>
+                    <i class="devicon-intellij-plain colored" title='IntelliJ IDEA'></i> <br/>
                     <i className='devicon-eslint-original colored' title="ESLint"></i>
                     <i className='devicon-heroku-original colored' title='Heroku'></i>
                     <i className='devicon-jira-plain colored' title='Jira'></i>
