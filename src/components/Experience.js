@@ -55,8 +55,8 @@ export const Experience = () => {
                                             <i class="devicon-electron-original colored" title="Electron.js"></i>
                                             <i class="devicon-jest-plain colored" title="Jest"></i>
                                             <i class="devicon-eslint-plain colored" title="ESLint"></i>
-                                            <i class="devicon-npm-original-wordmark colored" title="npm"></i>
                                             <i class="devicon-mongodb-plain colored" title="MongoDB"></i>
+                                            <i class="devicon-opencv-plain colored" title="OpenCV"></i>
                                         </div>
                                         </TimelineContent>
                                     </TimelineItem>

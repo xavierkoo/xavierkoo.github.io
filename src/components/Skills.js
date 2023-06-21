@@ -44,6 +44,7 @@ export const Skills = () => {
                         <i className='devicon-electron-original colored' title='Electron.js'></i>
                         <i className='devicon-spring-plain colored' title='Spring/Spring Boot'></i>
                         <i className='devicon-jest-plain colored' title='Jest'></i>
+                        <i class="devicon-opencv-plain colored" title='OpenCV'></i>
                       </div>
                     </Carousel.Item>
                     <Carousel.Item>
