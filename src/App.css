@@ -360,7 +360,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     display: none; /* Hide the desktop container on mobile */
   }
   .mobile-skill i {
-    font-size: 27px;
+    font-size: 30px;
   }
 }
 
@@ -672,7 +672,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 @media (max-width: 768px) {
   .item-exp i {
     /* Font size for mobile devices */
-    font-size: 26px;
+    font-size: 35px;
   }
 }
  
