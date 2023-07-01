@@ -57,6 +57,7 @@ export const Experience = () => {
                                             <i class="devicon-eslint-plain colored" title="ESLint"></i>
                                             <i class="devicon-mongodb-plain colored" title="MongoDB"></i>
                                             <i class="devicon-opencv-plain colored" title="OpenCV"></i>
+                                            <i class='devicon-python-plain colored' title='Python'></i>
                                         </div>
                                         </TimelineContent>
                                     </TimelineItem>
