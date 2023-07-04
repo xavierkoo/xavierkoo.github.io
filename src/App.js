@@ -1,7 +1,5 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import ReactGA from "react-ga4";
-import React, {useEffect} from 'react'
 import withSplashScreen from "./components/withSplashScreen";
 import { CursorProvider } from "react-cursor-custom";
 import { NavBar } from "./components/NavBar";
@@ -12,9 +10,6 @@ import { Footer } from "./components/Footer";
 import { Experience } from "./components/Experience";
 
 function App() {
-  useEffect(() => {
-    ReactGA.initialize('G-VX58N5W8GB');
-  },[]);
 
   return (
     <div className="App">
