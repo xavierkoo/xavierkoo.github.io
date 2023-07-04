@@ -1,6 +1,6 @@
 # Portfolio Website
 
-This portfolio website was created to showcase my technical skills, experience and personal projects.
+This portfolio website was created to showcase my technical skills, experience and personal projects. Google Analytics is implemented with `react-ga4`.
 
 Deployed on Github Pages: https://xavierkoo.github.io/
 
