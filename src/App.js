@@ -13,8 +13,8 @@ import { Experience } from "./components/Experience";
 
 function App() {
   useEffect(() => {
-  ReactGA.initialize('TRACKING ID');
-    ReactGA.pageview(window.location.pathname + window.location.search)
+    ReactGA.initialize('G-VX58N5W8GB');
+      ReactGA.pageview(window.location.pathname + window.location.search)
   },[]);
 
   return (
