@@ -42,7 +42,7 @@ export const Experience = () => {
                                             Feb 2023 - Present
                                         </Typography> <br />
                                         <Typography  fontWeight="bold" variant="h5" component="span">
-                                            Software Engineer <Typography variant="h5" color="secondary">@Asterisk Technologies</Typography>
+                                            Software Engineer & Machine Learning Intern <Typography variant="h5" color="secondary">@Asterisk Technologies</Typography>
                                         </Typography>
                                         <Typography></Typography> {/* TODO: add description in list */}
                                         <div className="item-exp mt-1">
