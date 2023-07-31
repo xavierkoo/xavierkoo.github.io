@@ -52,8 +52,8 @@ export const Experience = () => {
                                             <i class="devicon-react-original colored" title="React.js"></i>
                                             <i class="devicon-express-original" title="Express.js"></i>
                                             <i class="devicon-nodejs-plain colored" title="Node.js"></i>
-                                            {isMobile && <br />}
                                             <i class="devicon-electron-original colored" title="Electron.js"></i>
+                                            {isMobile && <br />}
                                             <i class="devicon-jest-plain colored" title="Jest"></i>
                                             <img id='cypress' src={cypress} title='Cypress'/>
                                             <i class="devicon-eslint-plain colored" title="ESLint"></i>
