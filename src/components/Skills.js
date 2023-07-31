@@ -57,7 +57,7 @@ export const Skills = () => {
                     </Carousel.Item>
                     <Carousel.Item>
                       <h4>Tools</h4>
-                      <div className='item' style={{ marginTop: '20px', height: '100px', overflowX: 'auto', whiteSpace: 'nowrap' }}>
+                      <div className='item' style={{ marginTop: '20px', height: '120px', overflowX: 'auto', whiteSpace: 'nowrap' }}>
                         <i className='devicon-docker-plain colored' title='Docker'></i>
                         <i className='devicon-git-plain colored' title='Git'></i>
                         <i className='devicon-github-original' title='GitHub'></i>
