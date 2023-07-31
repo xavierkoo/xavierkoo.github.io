@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Container, Row, Col, Carousel } from 'react-bootstrap';
 import colorSharp from "../assets/img/color-sharp.webp";
+import cypress from "../assets/img/cypress-icon.png";
 
 export const Skills = () => {
   const [index, setIndex] = useState(0);
@@ -60,6 +61,7 @@ export const Skills = () => {
                         <i className='devicon-docker-plain colored' title='Docker'></i>
                         <i className='devicon-git-plain colored' title='Git'></i>
                         <i className='devicon-github-original' title='GitHub'></i>
+                        <img src={cypress} style={{marginBottom: '45px', marginLeft: '10px', height: '65px', width: '65px'}} title='Cypress'/>
                         <i class="devicon-intellij-plain colored" title='IntelliJ IDEA'></i>
                         <i className='devicon-eslint-original colored' title="ESLint"></i>
                         <i class="devicon-npm-original-wordmark colored" title='npm'></i>
@@ -102,6 +104,7 @@ export const Skills = () => {
                     <i className='devicon-docker-plain colored' title='Docker'></i>
                     <i className='devicon-git-plain colored' title='Git'></i>
                     <i className='devicon-github-original' title='GitHub'></i>
+                    <img src={cypress} style={{marginBottom: '18px', marginLeft: '10px', height: '30px', width: '30px'}} title='Cypress'/>
                     <i class="devicon-npm-original-wordmark colored" title='npm'></i>
                     <i class="devicon-intellij-plain colored" title='IntelliJ IDEA'></i> <br/>
                     <i className='devicon-eslint-original colored' title="ESLint"></i>

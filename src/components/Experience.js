@@ -8,6 +8,7 @@ import TimelineContent from "@mui/lab/TimelineContent";
 import TimelineDot from "@mui/lab/TimelineDot";
 import CodeIcon from '@mui/icons-material/Code';
 import Typography from "@mui/material/Typography";
+import cypress from "../assets/img/cypress-icon.png";
 
 export const Experience = () => {
     const isMobile = window.matchMedia('(max-width: 768px)').matches;
@@ -54,6 +55,7 @@ export const Experience = () => {
                                             {isMobile && <br />}
                                             <i class="devicon-electron-original colored" title="Electron.js"></i>
                                             <i class="devicon-jest-plain colored" title="Jest"></i>
+                                            <img id='cypress' src={cypress} title='Cypress'/>
                                             <i class="devicon-eslint-plain colored" title="ESLint"></i>
                                             <i class="devicon-mongodb-plain colored" title="MongoDB"></i>
                                             <i class="devicon-opencv-plain colored" title="OpenCV"></i>

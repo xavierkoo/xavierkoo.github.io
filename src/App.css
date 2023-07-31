@@ -669,10 +669,24 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-size: 50px;
 }
 
+img#cypress {
+  margin-bottom: 35px;
+  margin-left: 15px;
+  width: 45px;
+  height: 45px;
+}
+
 @media (max-width: 768px) {
   .item-exp i {
     /* Font size for mobile devices */
     font-size: 35px;
+  }
+
+  img#cypress {
+    margin-bottom: 20px;
+    margin-left: 10px;
+    width: 35px;
+    height: 35px;
   }
 }
  
