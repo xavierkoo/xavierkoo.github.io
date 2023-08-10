@@ -45,7 +45,6 @@ export const Experience = () => {
                                         <Typography  fontWeight="bold" variant="h5" component="span">
                                             Software Engineer & Machine Learning Intern <Typography variant="h5" color="secondary">@Asterisk Technologies</Typography>
                                         </Typography>
-                                        <Typography></Typography> {/* TODO: add description in list */}
                                         <div className="item-exp mt-1">
                                             <i class="devicon-bootstrap-plain colored" title="Bootstrap"></i>
                                             <i class="devicon-sass-plain colored" title="Sass"></i>
@@ -61,6 +60,60 @@ export const Experience = () => {
                                             <i class="devicon-opencv-plain colored" title="OpenCV"></i>
                                             <i class='devicon-python-plain colored' title='Python'></i>
                                         </div>
+                                        <ul>
+                                            <li className="mb-2">
+                                                <Typography>
+                                                    Architected from scratch an enterprise facilities management system (FMS), enabling a major client to oversee facility bookings
+                                                    and streamline admin for 1200+ employees, reducing task time by 50% with error-free bookings vs. previous process with Outlook.
+                                                </Typography>
+                                            </li>
+                                            <li className="mb-2">
+                                                <Typography>
+                                                    Engineered automated facility access by integrating tablets as interactive booking displays with Human Interface Devices, seamlessly
+                                                    linked to the FMS and door relays verifying QR Codes/TOTP for user access, achieving a 95% reduction in manual access requests and 4%
+                                                    increase in employee productivity by eliminating manual security interventions.
+                                                </Typography>
+                                            </li>
+                                            <li className="mb-2">
+                                                <Typography>
+                                                Devised the FMS leveraging a unified database architecture for brand switching, centralized management, and user experience. Design choice
+                                                reduces 95% of development work previously required for each new brand iteration for every new client deployment.
+                                                </Typography>
+                                            </li>
+                                            <li className="mb-2">
+                                                <Typography>
+                                                Spearheaded front-end development with React, Bootstrap, and SASS, building 12 reusable components and 12 dynamic web pages. Pioneered a
+                                                one-click data export feature to CSV format, enhancing user data accessibility. Wrote comprehensive unit, integration, and end-to-end tests
+                                                with Jest, react-testing-library, and Cypress.
+                                                </Typography>
+                                            </li>
+                                            <li className="mb-2">
+                                                <Typography>
+                                                    Constructed backend with Express + Node by building 48 RESTful APIs including email integration with the SendGrid API, and MongoDB for data
+                                                    storage. Users are authenticated with JSON Web Tokens and QR Codes/TOTP was generated securely leveraging a Network Time Protocol for precise
+                                                    time synchronization. Wrote unit and integration tests with Jest.
+                                                </Typography>
+                                            </li>
+                                            <li className="mb-2">
+                                                <Typography>
+                                                    Employed Electron.js to package the React based interactive booking display app for seamless tablet installation. Utilized PM2 for a resilient,
+                                                    automatic local server with 99% uptime, ensuring continuous facility security and operations with no interruptions.
+                                                </Typography>
+                                            </li>
+                                            <li className="mb-2">
+                                                <Typography>
+                                                    Enforced code styling and quality via ESLint. Developed basic CI/CD pipeline for automated build, test and deployment. Authored a wiki for documentation
+                                                    of entire system. Manage new updates and fixes on live system via GitHub releases.
+                                                </Typography>
+                                            </li>
+                                            <li className="mb-2">
+                                                <Typography>
+                                                    <b>Computer Vision:</b> Created a license plate recognition & detection tool for images and videos deploying YOLOv4 within the Darknet framework before switching
+                                                    to YOLOv7. Integrated PaddleOCR for Optical Character Recognition. Trained model on public and self-sourced datasets, annotating images with LabelImg.
+                                                    Model achieved a mean Average Precision of over 90%.
+                                                </Typography>
+                                            </li>
+                                        </ul>  
                                         </TimelineContent>
                                     </TimelineItem>
                                     <TimelineItem>
@@ -81,8 +134,8 @@ export const Experience = () => {
                                         <ul>
                                             <li>
                                                 <Typography>
-                                                    Authored a technical blog on software engineering, producing 33 articles covering topics such as data structures &
-                                                    algorithms, technologies & frameworks, and essential skills which received 2600 views and 178 followers to date.        
+                                                    Authored a technical blog on software engineering, producing 44 articles covering topics such as data structures &
+                                                    algorithms, technologies & frameworks, and essential skills which received 4600 views and 194 (peak) followers to date.        
                                                 </Typography>
                                             </li>
                                         </ul>                                          
