@@ -89,7 +89,7 @@ export const Experience = () => {
                                             </li>
                                             <li className="mb-2">
                                                 <Typography>
-                                                    Constructed backend with Express + Node by building 48 RESTful APIs including email integration with the SendGrid API, and MongoDB for data
+                                                    Constructed backend with Express + Node by building 49 RESTful APIs including email integration with the SendGrid API, and MongoDB for data
                                                     storage. Users are authenticated with JSON Web Tokens and QR Codes/TOTP was generated securely leveraging a Network Time Protocol for precise
                                                     time synchronization. Wrote unit and integration tests with Jest.
                                                 </Typography>
