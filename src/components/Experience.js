@@ -30,6 +30,23 @@ export const Experience = () => {
                                         },
                                     }}
                                 >
+                                     <TimelineItem>
+                                        <TimelineSeparator>
+                                            <TimelineConnector  />
+                                            <TimelineDot color="secondary">
+                                                <CodeIcon />
+                                            </TimelineDot>
+                                            <TimelineConnector />
+                                        </TimelineSeparator>
+                                        <TimelineContent sx={{ py: "15px", px: 2 }}>
+                                        <Typography variant="p" component="span">
+                                            Aug 2023 - Present
+                                        </Typography> <br />
+                                        <Typography  fontWeight="bold" variant="h5" component="span">
+                                            Software Engineer <Typography variant="h5" color="secondary">@Asterisk Technologies</Typography>
+                                        </Typography>
+                                        </TimelineContent>
+                                    </TimelineItem>
                                     <TimelineItem>
                                         <TimelineSeparator>
                                             <TimelineConnector  />
@@ -40,7 +57,7 @@ export const Experience = () => {
                                         </TimelineSeparator>
                                         <TimelineContent sx={{ py: "15px", px: 2 }}>
                                         <Typography variant="p" component="span">
-                                            Feb 2023 - Present
+                                            Feb 2023 - Aug 2023
                                         </Typography> <br />
                                         <Typography  fontWeight="bold" variant="h5" component="span">
                                             Software Engineer & Machine Learning Intern <Typography variant="h5" color="secondary">@Asterisk Technologies</Typography>
