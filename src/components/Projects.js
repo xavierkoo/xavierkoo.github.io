@@ -1,6 +1,6 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import supportLocal from "../assets/img/supportLocal.png";
+import supportLocal from "../assets/img/supportLocal.webp";
 import monster from "../assets/img/monster-slayer.png";
 import hangman from "../assets/img/hangman.png";
 import portfolio from "../assets/img/portfolio.png";
