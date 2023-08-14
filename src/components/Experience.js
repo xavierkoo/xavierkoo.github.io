@@ -125,9 +125,9 @@ export const Experience = () => {
                                             </li>
                                             <li className="mb-2">
                                                 <Typography>
-                                                    <b>Computer Vision:</b> Created a license plate recognition & detection tool for images and videos deploying YOLOv4 within the Darknet framework before switching
-                                                    to YOLOv7. Integrated PaddleOCR for Optical Character Recognition. Trained model on public and self-sourced datasets, annotating images with LabelImg.
-                                                    Model achieved a mean Average Precision of over 90%.
+                                                    <b>Computer Vision:</b> Created a license plate recognition & detection tool by deploying YOLOv4 within the Darknet framework before switching to YOLOv7.
+                                                    Integrated PaddleOCR for Optical Character Recognition. Trained model with Region Based Convolutional Neural Networks, on sourced data annotated with LabelImg.
+                                                    Model achieved a mean Average Precision of 90%+
                                                 </Typography>
                                             </li>
                                         </ul>  
