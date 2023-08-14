@@ -16,10 +16,10 @@ export const Footer = () => {
           <Col size={12} sm={6} className="text-center text-sm-end mt-5">
             <h2>Let's Connect!</h2>
             <div className="social-icon">
-            <a href="https://www.linkedin.com/in/xavier-koo/" target="_blank"><img src={navIcon1} alt="" /></a>
-                        <a href="https://github.com/xavierkoo" target="_blank"><img src={navIcon2} alt="" /></a>
-                        <a href="mailto:xavier.koo.2021@scis.smu.edu.sg" target="_blank"><img src={navIcon4} alt="" /></a>
-                        <a href="https://github.com/xavierkoo/portfolio-website/raw/main/public/Xavier-Koo-Resume.pdf" target="_blank"><img src={navIcon3} alt="" /></a>
+              <a href="https://www.linkedin.com/in/xavier-koo/" target="_blank"><img src={navIcon1} alt="linkedin" title="LinkedIn" /></a>
+              <a href="https://github.com/xavierkoo" target="_blank"><img src={navIcon2} alt="github" title="GitHub" /></a>
+              <a href="mailto:xavier.koo.2021@scis.smu.edu.sg" target="_blank"><img src={navIcon4} alt="email" title="email" /></a>
+              <a href="https://github.com/xavierkoo/portfolio-website/raw/main/public/Xavier-Koo-Resume.pdf"><img src={navIcon3} alt="resume" title="Resume" /></a>
             </div>
             <p className="mt-2">Developed by Xavier Koo</p>
           </Col>
