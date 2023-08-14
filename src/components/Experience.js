@@ -8,7 +8,7 @@ import TimelineContent from "@mui/lab/TimelineContent";
 import TimelineDot from "@mui/lab/TimelineDot";
 import CodeIcon from '@mui/icons-material/Code';
 import Typography from "@mui/material/Typography";
-import cypress from "../assets/img/cypress-icon.png";
+import cypress from "../assets/img/cypress-icon.webp";
 
 export const Experience = () => {
     const isMobile = window.matchMedia('(max-width: 768px)').matches;

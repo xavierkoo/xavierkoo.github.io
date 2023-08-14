@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Container, Row, Col, Carousel } from 'react-bootstrap';
 import colorSharp from "../assets/img/color-sharp.webp";
-import cypress from "../assets/img/cypress-icon.png";
+import cypress from "../assets/img/cypress-icon.webp";
 
 export const Skills = () => {
   const [index, setIndex] = useState(0);
