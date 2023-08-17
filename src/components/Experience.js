@@ -80,8 +80,8 @@ export const Experience = () => {
                                         <ul>
                                             <li className="mb-2">
                                                 <Typography>
-                                                    Architected from scratch an enterprise facilities management system (FMS), enabling a major client to oversee facility bookings
-                                                    and streamline admin for 1200+ employees, reducing task time by 50% with error-free bookings vs. previous process with Outlook.
+                                                    Architected independently an enterprise-level facilities management system (FMS), enabling a major private hospital client to oversee
+                                                    hundreds of facility bookings and streamline admin for 1200+ employees, reducing task time by 50% with 0% booking error rate.
                                                 </Typography>
                                             </li>
                                             <li className="mb-2">
