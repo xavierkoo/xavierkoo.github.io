@@ -152,7 +152,7 @@ export const Experience = () => {
                                             <li>
                                                 <Typography>
                                                     Authored a technical blog on software engineering, producing 44 articles covering topics such as data structures &
-                                                    algorithms, technologies & frameworks, and essential skills which received 4600 views and 195 (peak) followers to date.        
+                                                    algorithms, technologies & frameworks, and essential skills which received 4600 views and 196 (peak) followers to date.        
                                                 </Typography>
                                             </li>
                                         </ul>                                          
