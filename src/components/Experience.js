@@ -93,12 +93,6 @@ export const Experience = () => {
                                             </li>
                                             <li className="mb-2">
                                                 <Typography>
-                                                Devised the FMS leveraging a unified database architecture for brand switching, centralized management, and user experience. Design choice
-                                                reduces 95% of development work previously required for each new brand iteration for every new client deployment.
-                                                </Typography>
-                                            </li>
-                                            <li className="mb-2">
-                                                <Typography>
                                                 Spearheaded front-end development with React, Bootstrap, and SASS, building 12 reusable components and 13 dynamic web pages. Pioneered a
                                                 one-click data export feature to CSV format, enhancing user data accessibility. Wrote comprehensive unit, integration, and end-to-end tests
                                                 with Jest, react-testing-library, and Cypress.
@@ -109,6 +103,12 @@ export const Experience = () => {
                                                     Constructed backend with Express + Node by building 49 RESTful APIs including email integration with the SendGrid API, and MongoDB for data
                                                     storage. Users are authenticated with JSON Web Tokens and QR Codes/TOTP was generated securely leveraging a Network Time Protocol for precise
                                                     time synchronization. Wrote unit and integration tests with Jest.
+                                                </Typography>
+                                            </li>
+                                            <li className="mb-2">
+                                                <Typography>
+                                                Devised the FMS leveraging a unified database architecture for brand switching, centralized management, and user experience. Design choice
+                                                reduces 95% of development work previously required for each new brand iteration for every new client deployment.
                                                 </Typography>
                                             </li>
                                             <li className="mb-2">
@@ -125,7 +125,7 @@ export const Experience = () => {
                                             </li>
                                             <li className="mb-2">
                                                 <Typography>
-                                                    <b>Computer Vision:</b> Created a license plate recognition & detection tool by deploying YOLOv4 within the Darknet framework before switching to YOLOv7.
+                                                    <b>Computer Vision:</b> Created a license plate detection & character recognition tool with YOLOv4 + Darknet framework before switching to YOLOv7.
                                                     Integrated PaddleOCR for Optical Character Recognition. Trained model with Region Based Convolutional Neural Networks, on sourced data annotated with LabelImg.
                                                     Model achieved a mean Average Precision of 90%+
                                                 </Typography>
