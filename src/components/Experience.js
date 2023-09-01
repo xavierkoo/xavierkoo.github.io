@@ -93,7 +93,7 @@ export const Experience = () => {
                                             </li>
                                             <li className="mb-2">
                                                 <Typography>
-                                                Spearheaded front-end development with React, Bootstrap, and SASS, building 12 reusable components and 13 dynamic web pages. Pioneered a
+                                                Spearheaded front-end development with React, Bootstrap, and SASS, building 12 reusable components and 13 dynamic & mobile responsive web pages. Pioneered a
                                                 one-click data export feature to CSV format, enhancing user data accessibility. Wrote comprehensive unit, integration, and end-to-end tests
                                                 with Jest, react-testing-library, and Cypress.
                                                 </Typography>
