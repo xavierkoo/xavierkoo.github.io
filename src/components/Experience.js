@@ -45,6 +45,25 @@ export const Experience = () => {
                                         <Typography  fontWeight="bold" variant="h5" component="span">
                                             Software Engineer <Typography variant="h5" color="secondary">@Asterisk Technologies</Typography>
                                         </Typography>
+                                        <div className="item-exp mt-1 mb-4">
+                                            <i class="devicon-flutter-plain colored" title="Flutter"></i>
+                                            <i class="devicon-dart-plain colored" title="Dart"></i>
+                                            <i class="devicon-react-original colored" title="React.js"></i>
+                                            <i class="devicon-express-original" title="Express.js"></i>
+                                            <i class="devicon-nodejs-plain colored" title="Node.js"></i>
+                                        </div>
+                                        <ul>
+                                            <li className="mb-2">
+                                                <Typography>
+                                                    Developed an internal device monitoring tool using React and Express + Node, enabling live remote device status monitoring.
+                                                </Typography>
+                                            </li>
+                                            <li className="mb-2">
+                                                <Typography>
+                                                    Spearheading the enhancement of a visitor management system (VMS) for a major private hospital client using Flutter.
+                                                </Typography>
+                                            </li>
+                                        </ul>
                                         </TimelineContent>
                                     </TimelineItem>
                                     <TimelineItem>

@@ -32,6 +32,7 @@ export const Skills = () => {
                         <i className='devicon-javascript-plain colored' title='JavaScript'></i>
                         <i className='devicon-python-plain colored' title='Python'></i>
                         <i className='devicon-java-plain colored' title='Java'></i>
+                        <i class="devicon-dart-plain colored" title="Dart"></i>
                       </div>
                     </Carousel.Item>
                     <Carousel.Item>
@@ -43,6 +44,7 @@ export const Skills = () => {
                         <i className='devicon-express-original' title='Express.js'></i>
                         <i className='devicon-nodejs-plain colored' title='Node.js'></i>
                         <i className='devicon-electron-original colored' title='Electron.js'></i>
+                        <i class="devicon-flutter-plain colored" title="Flutter"></i>
                         <i className='devicon-spring-plain colored' title='Spring/Spring Boot'></i>
                         <i className='devicon-jest-plain colored' title='Jest'></i>
                         <i class="devicon-opencv-plain colored" title='OpenCV'></i>
@@ -64,7 +66,7 @@ export const Skills = () => {
                         <img src={cypress} style={{marginBottom: '45px', marginLeft: '10px', height: '65px', width: '65px'}} title='Cypress'/>
                         <i class="devicon-intellij-plain colored" title='IntelliJ IDEA'></i>
                         <i className='devicon-eslint-original colored' title="ESLint"></i>
-                        <i class="devicon-npm-original-wordmark colored" title='npm'></i>
+                        <i class="devicon-amazonwebservices-original colored" title='AWS'></i>
                         <i className='devicon-heroku-original colored' title='Heroku'></i>
                         <i className='devicon-jira-plain colored' title='Jira'></i>
                         <i className='devicon-figma-plain colored' title='Figma'></i>
@@ -81,6 +83,7 @@ export const Skills = () => {
                     <i className='devicon-javascript-plain colored' title='JavaScript'></i>
                     <i className='devicon-python-plain colored' title='Python'></i>
                     <i className='devicon-java-plain colored' title='Java'></i>
+                    <i class="devicon-dart-plain colored" title="Dart"></i>
                   </div>
                   <h5 className='mt-4'>Frameworks & Libraries</h5>
                   <div className='mobile-skill'>
@@ -91,6 +94,7 @@ export const Skills = () => {
                     <i className='devicon-nodejs-plain colored' title='Node.js'></i> <br />
                     <i className='devicon-electron-original colored' title='Electron.js'></i>
                     <i className='devicon-spring-plain colored' title='Spring/Spring Boot'></i>
+                    <i class="devicon-flutter-plain colored" title="Flutter"></i>
                     <i className='devicon-jest-plain colored' title='Jest'></i>
                     <i class="devicon-opencv-plain colored" title='OpenCV'></i>
                   </div>
@@ -105,7 +109,7 @@ export const Skills = () => {
                     <i className='devicon-git-plain colored' title='Git'></i>
                     <i className='devicon-github-original' title='GitHub'></i>
                     <img src={cypress} style={{marginBottom: '18px', marginLeft: '10px', height: '30px', width: '30px'}} title='Cypress'/>
-                    <i class="devicon-npm-original-wordmark colored" title='npm'></i> <br />
+                    <i class="devicon-amazonwebservices-original colored" title='AWS'></i> <br />
                     <i class="devicon-intellij-plain colored" title='IntelliJ IDEA'></i>
                     <i className='devicon-eslint-original colored' title="ESLint"></i>
                     <i className='devicon-heroku-original colored' title='Heroku'></i>
