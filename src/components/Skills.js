@@ -80,7 +80,7 @@ export const Skills = () => {
                     <i className='devicon-html5-plain colored' title='HTML5'></i>
                     <i className='devicon-css3-plain colored' title='CSS3'></i>
                     <i className='devicon-sass-original colored' title='Sass'></i>
-                    <i className='devicon-javascript-plain colored' title='JavaScript'></i>
+                    <i className='devicon-javascript-plain colored' title='JavaScript'></i><br />
                     <i className='devicon-python-plain colored' title='Python'></i>
                     <i className='devicon-java-plain colored' title='Java'></i>
                     <i class="devicon-dart-plain colored" title="Dart"></i>
