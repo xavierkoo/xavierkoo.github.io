@@ -60,7 +60,7 @@ export const Experience = () => {
                                             </li>
                                             <li className="mb-2">
                                                 <Typography>
-                                                    Spearheading the software rewrite of a visitor management system (VMS) for a major private hospital client using Flutter.
+                                                    Spearheading the software rewrite of a visitor management system (VMS) for a major private hospital client using Flutter & Riverpod.
                                                 </Typography>
                                             </li>
                                         </ul>
