@@ -20,7 +20,7 @@ export const Projects = () => {
 
     const softwareProjects = [
         {
-            title: "[Champion] PSA Code Sprint 2023",
+            title: "[Champion 🏆] PSA Code Sprint 2023",
             description: "Led winning team ByTheSea in developing a next-gen HR platform that enhances PSA’s HR strategy in 3 key areas: Talent, Experience & Engagement. Utilized LangChain, ChromaDB, Streamlit, FastAPI, Vue.js, and OpenAI API; competed against 100+ teams.",
             imgUrl: psa,
             projUrl: 'https://github.com/xavierkoo/psa-codesprint-2023',
