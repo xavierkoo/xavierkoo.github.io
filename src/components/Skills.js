@@ -4,6 +4,7 @@ import colorSharp from "../assets/img/color-sharp.webp";
 import cypress from "../assets/img/cypress-icon.webp";
 import chromadb from "../assets/img/chromadb.png";
 import langchain from "../assets/img/langchain.png";
+import streamlit from "../assets/img/streamlit.png";
 
 export const Skills = () => {
   const [index, setIndex] = useState(0);
@@ -51,6 +52,8 @@ export const Skills = () => {
                         <i className='devicon-jest-plain colored' title='Jest'></i>
                         <i class="devicon-opencv-plain colored" title='OpenCV'></i>
                         <img src={langchain} style={{marginBottom: '45px', marginLeft: '10px', height: '55px', width: '75px'}} title='LangChain'/>
+                        <img src={streamlit} style={{marginBottom: '45px', marginLeft: '10px', height: '45px', width: '60px'}} title='StreamLit'/>
+                        <i class="devicon-fastapi-plain colored" title='FastAPI'></i>
                       </div>
                     </Carousel.Item>
                     <Carousel.Item>
@@ -103,6 +106,8 @@ export const Skills = () => {
                     <i className='devicon-jest-plain colored' title='Jest'></i>
                     <i class="devicon-opencv-plain colored" title='OpenCV'></i> <br />
                     <img src={langchain} style={{marginBottom: '18px', marginLeft: '10px', height: '35px', width: '45px'}} title='LangChain'/>
+                    <img src={streamlit} style={{marginBottom: '18px', marginLeft: '10px', height: '20px', width: '35px'}} title='StreamLit'/>
+                    <i class="devicon-fastapi-plain colored" title='FastAPI'></i>
                   </div>
                   <h5 className='mt-4'>Databases</h5>
                   <div className='mobile-skill'>
