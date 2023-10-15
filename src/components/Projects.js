@@ -12,12 +12,19 @@ import heicoders from "../assets/img/heicoders.png";
 import colorSharp2 from "../assets/img/color-sharp2.webp";
 import greenventure from "../assets/img/greenventure.png";
 import leapaheadx from "../assets/img/leapaheadx.png";
+import psa from "../assets/img/psa.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
 export const Projects = () => {
 
     const softwareProjects = [
+        {
+            title: "[Champion] PSA Code Sprint 2023",
+            description: "Led winning team in developing a next-gen HR platform utilizing LangChain, ChromaDB, Streamlit, FastAPI, Vue.js, and OpenAI API; competed against 100+ teams.",
+            imgUrl: psa,
+            projUrl: 'https://github.com/xavierkoo/psa-codesprint-2023',
+        },
         {
             title: "LeapAheadX",
             description: "LeapAheadX is a form management system to digitalize the form management processes of the client company Quantum Leap. Developed with Object-Oriented Programming (OOP) principles, Vue.js/Vite, Bootstrap, Sass, Spring Boot MVC, and MySQL.",

@@ -51,6 +51,7 @@ export const Experience = () => {
                                             <i class="devicon-react-original colored" title="React.js"></i>
                                             <i class="devicon-express-original" title="Express.js"></i>
                                             <i class="devicon-nodejs-plain colored" title="Node.js"></i>
+                                            <i class="devicon-sqlite-plain colored" title="SQLite"></i>
                                         </div>
                                         <ul>
                                             <li className="mb-2">
@@ -60,7 +61,7 @@ export const Experience = () => {
                                             </li>
                                             <li className="mb-2">
                                                 <Typography>
-                                                    Spearheading the software rewrite of a visitor management system (VMS) for a major private hospital client using Flutter & Riverpod.
+                                                    Spearheading the software rewrite of a visitor management system (VMS) for a major private hospital client using Flutter, Riverpod & SQLite.
                                                 </Typography>
                                             </li>
                                         </ul>
@@ -99,54 +100,47 @@ export const Experience = () => {
                                         <ul>
                                             <li className="mb-2">
                                                 <Typography>
-                                                    Architected independently an enterprise-level facilities management system (FMS), enabling a major private hospital client to oversee
-                                                    thousands of facility bookings and streamline admin for 1200+ employees, reducing task time by 50% with 0% booking error rate.
+                                                Architected independently an organization wide facilities management system (FMS), enabling a major private hospital client to oversee thousands 
+                                                of bookings, and streamlining admin for 1200+ employees with 0% booking error rate.
                                                 </Typography>
                                             </li>
                                             <li className="mb-2">
                                                 <Typography>
-                                                    Engineered automated facility access by integrating tablets as interactive booking displays with Human Interface Devices, seamlessly
-                                                    linked to the FMS and door relays verifying QR Codes/TOTP for user access, achieving a 95% reduction in manual access requests and 4%
-                                                    increase in employee productivity by eliminating manual security interventions.
+                                                Engineered automated facility access by integrating tablets as interactive facility displays, seamlessly linked to the FMS and facility door relays, 
+                                                allowing automated user access via QR Code/TOTP, achieving a 100% reduction in manual facility access requests by users.
                                                 </Typography>
                                             </li>
                                             <li className="mb-2">
                                                 <Typography>
-                                                Spearheaded front-end development with React, Bootstrap, and SASS, building 12 reusable components and 13 dynamic & mobile responsive web pages. Pioneered a
-                                                one-click data export feature to CSV format, enhancing user data accessibility. Wrote comprehensive unit, integration, and end-to-end tests
-                                                with Jest, react-testing-library, and Cypress.
+                                                Spearheaded front-end development with React, Bootstrap, and SASS, building 12 reusable components and 13 dynamic and mobile-responsive web pages.
+                                                Pioneered a one-click CSV data export feature, enhancing user data accessibility.
                                                 </Typography>
                                             </li>
                                             <li className="mb-2">
                                                 <Typography>
-                                                    Constructed backend with Express + Node by building 50 RESTful APIs including email integration with the SendGrid API, and MongoDB for data
-                                                    storage. Users are authenticated with JSON Web Tokens and QR Codes/TOTP was generated securely leveraging a Network Time Protocol for precise
-                                                    time synchronization. Wrote unit and integration tests with Jest.
+                                                Constructed backend with Express and Node.js, creating 50 RESTful APIs including email integration with SendGrid API. Implemented MongoDB with a 
+                                                unified database architecture for brand switching, reducing development time for client deployments. User authentication and secure facility access 
+                                                accomplished with JWTs and QR/TOTP, generated securely with Network Time Protocol.
                                                 </Typography>
                                             </li>
                                             <li className="mb-2">
                                                 <Typography>
-                                                Devised the FMS leveraging a unified database architecture for brand switching, centralized management, and user experience. Design choice
-                                                reduces 95% of development work previously required for each new brand iteration for every new client deployment.
+                                                Enforced code styling and quality via ESLint. Wrote comprehensive unit, integration, and end-to-end tests with Jest, react-testing- library, 
+                                                and Cypress. Devised basic CI/CD pipeline for automated build, test, and deployment. Authored wiki for documentation of system and managed new 
+                                                updates and bug fixes on live system via GitHub releases.
                                                 </Typography>
                                             </li>
                                             <li className="mb-2">
                                                 <Typography>
-                                                    Employed Electron.js to package the React based interactive booking display app for seamless tablet installation. Utilized PM2 for a resilient,
-                                                    automatic local server with 99% uptime, ensuring continuous facility security and operations with no interruptions.
+                                                Employed Electron.js to package React based interactive facility display app for seamless installation on tablets. Utilized PM2 for a resilient, 
+                                                automatic local server with 99% uptime, ensuring continuous facility operations and security with no disruptions.
                                                 </Typography>
                                             </li>
                                             <li className="mb-2">
                                                 <Typography>
-                                                    Enforced code styling and quality via ESLint. Developed basic CI/CD pipeline for automated build, test and deployment. Authored a wiki for documentation
-                                                    of entire system. Manage new updates and fixes on live system via GitHub releases.
-                                                </Typography>
-                                            </li>
-                                            <li className="mb-2">
-                                                <Typography>
-                                                    <b>Computer Vision:</b> Created a license plate detection & character recognition tool with YOLOv4 + Darknet framework before switching to YOLOv7.
-                                                    Integrated PaddleOCR for Optical Character Recognition. Trained model with Region Based Convolutional Neural Networks, on sourced data annotated with LabelImg.
-                                                    Model achieved a mean Average Precision of 90%+
+                                                Developed a license plate detection and character recognition tool using YOLOv4 and Darknet, subsequently transitioning to YOLOv7. Integrated 
+                                                PaddleOCR for robust Optical Character Recognition. Trained the model using Region Based Convolutional Neural Networks on annotated data sourced 
+                                                through LabelImg. Achieved an impressive mean Average Precision of 90%+.
                                                 </Typography>
                                             </li>
                                         </ul>  
@@ -171,7 +165,7 @@ export const Experience = () => {
                                             <li>
                                                 <Typography>
                                                     Authored a technical blog on software engineering, producing 44 articles covering topics such as data structures &
-                                                    algorithms, technologies & frameworks, and essential skills which received 4600 views and 196 (peak) followers to date.        
+                                                    algorithms, technologies & frameworks, and essential skills which received more than 5500 views and 197 (peak) followers to date.        
                                                 </Typography>
                                             </li>
                                         </ul>                                          
