@@ -51,8 +51,8 @@ export const Skills = () => {
                         <i className='devicon-spring-plain colored' title='Spring/Spring Boot'></i>
                         <i className='devicon-jest-plain colored' title='Jest'></i>
                         <i class="devicon-opencv-plain colored" title='OpenCV'></i>
-                        <img src={langchain} style={{marginBottom: '45px', marginLeft: '10px', height: '55px', width: '75px'}} title='LangChain'/>
-                        <img src={streamlit} style={{marginBottom: '45px', marginLeft: '10px', height: '45px', width: '60px'}} title='StreamLit'/>
+                        <img src={langchain} style={{marginBottom: '45px', marginLeft: '10px', height: '40px', width: '65px'}} title='LangChain'/>
+                        <img src={streamlit} style={{marginBottom: '45px', marginLeft: '10px', height: '40px', width: '55px'}} title='StreamLit'/>
                         <i class="devicon-fastapi-plain colored" title='FastAPI'></i>
                       </div>
                     </Carousel.Item>
@@ -62,7 +62,7 @@ export const Skills = () => {
                         <i className='devicon-mongodb-plain colored' title='MongoDB'></i>
                         <i className='devicon-mysql-plain colored' title='MySQL'></i>
                         <i class="devicon-sqlite-plain colored" title='SQLite'></i>
-                        <img src={chromadb} style={{marginBottom: '45px', marginLeft: '10px', height: '55px', width: '75px'}} title='ChromaDB'/>
+                        <img src={chromadb} style={{marginBottom: '45px', marginLeft: '10px', height: '40px', width: '70px'}} title='ChromaDB'/>
                       </div>
                     </Carousel.Item>
                     <Carousel.Item>
