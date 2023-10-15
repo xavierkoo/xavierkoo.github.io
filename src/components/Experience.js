@@ -56,12 +56,12 @@ export const Experience = () => {
                                         <ul>
                                             <li className="mb-2">
                                                 <Typography>
-                                                    Developed an internal device monitoring tool using React and Express + Node, enabling live remote device status monitoring.
+                                                  Deployed an internal remote device monitoring tool using React and Express + Node, decreasing error notification time by 100%.
                                                 </Typography>
                                             </li>
                                             <li className="mb-2">
                                                 <Typography>
-                                                    Spearheading the software rewrite of a visitor management system (VMS) for a major private hospital client using Flutter, Riverpod & SQLite.
+                                                Spearheaded the software rewrite of a visitor management system for a major client using Flutter, Riverpod and SQLite.
                                                 </Typography>
                                             </li>
                                         </ul>
