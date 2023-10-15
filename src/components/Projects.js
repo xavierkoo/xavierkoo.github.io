@@ -21,19 +21,19 @@ export const Projects = () => {
     const softwareProjects = [
         {
             title: "[Champion] PSA Code Sprint 2023",
-            description: "Led winning team in developing a next-gen HR platform utilizing LangChain, ChromaDB, Streamlit, FastAPI, Vue.js, and OpenAI API; competed against 100+ teams.",
+            description: "Led winning team ByTheSea in developing a next-gen HR platform that enhances PSA’s HR strategy in 3 key areas: Talent, Experience & Engagement. Utilized LangChain, ChromaDB, Streamlit, FastAPI, Vue.js, and OpenAI API; competed against 100+ teams.",
             imgUrl: psa,
             projUrl: 'https://github.com/xavierkoo/psa-codesprint-2023',
         },
         {
-            title: "LeapAheadX",
-            description: "LeapAheadX is a form management system to digitalize the form management processes of the client company Quantum Leap. Developed with Object-Oriented Programming (OOP) principles, Vue.js/Vite, Bootstrap, Sass, Spring Boot MVC, and MySQL.",
+            title: "Form Management System - Quantum Leap Inc.",
+            description: "Developed an FMS for the client company to digitalize form management processes with Vue.js/Vite, Bootstrap, SASS, Java Spring Boot, Docker & MySQL, adhering to OOP principles and employing UML, ERD & Use Case Diagrams.",
             imgUrl: leapaheadx,
             projUrl: 'https://github.com/xavierkoo/leapaheadx',
         },
         {
             title: "GreenVenture",
-            description: "GreenVenture is a mobile application that incentivizes users to recycle by providing rewards. Microservices-based architecture that utilizes OAuth2 with Facebook SSO Login for authentication, Vue.js and React.js, Flask and Node.js + Express.js, MySQL and MongoDB, and employs Docker, LavinMQ, and nodemailer.",
+            description: "▪	Constructed a web app incentivizing and rewarding users to recycle, utilizing a scalable microservices-based architecture with React, Express.js, Node.js, MongoDB, and Docker and integrated a messaging system using AMQP based LavinMQ message broker with nodemailer for user emails.",
             imgUrl: greenventure,
             projUrl: 'https://github.com/xavierkoo/greenventure-main',
         },

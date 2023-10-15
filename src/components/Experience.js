@@ -139,8 +139,8 @@ export const Experience = () => {
                                             <li className="mb-2">
                                                 <Typography>
                                                 Developed a license plate detection and character recognition tool using YOLOv4 and Darknet, subsequently transitioning to YOLOv7. Integrated 
-                                                PaddleOCR for robust Optical Character Recognition. Trained the model using Region Based Convolutional Neural Networks on annotated data sourced 
-                                                through LabelImg. Achieved an impressive mean Average Precision of 90%+.
+                                                PaddleOCR for robust Optical Character Recognition. Trained the model using Region Based Convolutional Neural Networks on annotated data labelled 
+                                                with LabelImg. Achieved a mean Average Precision of 90%+.
                                                 </Typography>
                                             </li>
                                         </ul>  
