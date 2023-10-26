@@ -24,6 +24,7 @@ export const Projects = () => {
             description: "Led winning team ByTheSea in developing a next-gen HR platform that enhances PSA’s HR strategy in 3 key areas: Talent, Experience & Engagement. Utilized LangChain, ChromaDB, Streamlit, FastAPI, Vue.js, and OpenAI API; competed against 100+ teams.",
             imgUrl: psa,
             projUrl: 'https://github.com/xavierkoo/psa-codesprint-2023',
+            depUrl: 'https://www.linkedin.com/feed/update/urn:li:activity:7122807331519696900?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BxXggErcFRK2%2F%2BZRXFfuxcg%3D%3D',
         },
         {
             title: "Form Management System - Quantum Leap Inc.",
