@@ -13,6 +13,7 @@ import colorSharp2 from "../assets/img/color-sharp2.webp";
 import greenventure from "../assets/img/greenventure.png";
 import leapaheadx from "../assets/img/leapaheadx.png";
 import psa from "../assets/img/psa.png";
+import aws from "../assets/img/aws.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -79,6 +80,12 @@ export const Projects = () => {
     ];
 
     const miscProjects = [
+        {
+            title: "AWS Certified Solutions Architect – Associate",
+            description: "AWS Certification by Amazon Web Services.",
+            imgUrl: aws,
+            depUrl: "https://www.credly.com/badges/3fd2c590-3850-478c-912b-b804eb82eff2/linked_in_profile",
+        },
         {
             title: "Oracle Certified Foundations Associate, Java",
             description: "Oracle Java Certification.",
