@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.6a2e4aef.css",
-    "main.js": "/static/js/main.d7a2343b.js",
+    "main.js": "/static/js/main.a138d570.js",
     "static/js/787.749b4a44.chunk.js": "/static/js/787.749b4a44.chunk.js",
     "static/media/psa.png": "/static/media/psa.0ee7c84e8b3131449781.png",
     "static/media/color-sharp.webp": "/static/media/color-sharp.9cec1ca2a838200c3448.webp",
@@ -15,6 +15,7 @@
     "static/media/monster-slayer.png": "/static/media/monster-slayer.f8a3c5fdd8aa23555982.png",
     "static/media/greenventure.png": "/static/media/greenventure.24f83603a1966e8a2efb.png",
     "static/media/leapaheadx.png": "/static/media/leapaheadx.1f0f1100321be7f20810.png",
+    "static/media/aws.png": "/static/media/aws.ba83ab70a289939731c3.png",
     "static/media/langchain.png": "/static/media/langchain.be6c8f16504dec1015b6.png",
     "static/media/cypress-icon.webp": "/static/media/cypress-icon.820c044f58cdc2798199.webp",
     "static/media/CentraNo2-Bold.ttf": "/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
@@ -28,11 +29,11 @@
     "index.html": "/index.html",
     "static/media/nav-icon1.svg": "/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
     "main.6a2e4aef.css.map": "/static/css/main.6a2e4aef.css.map",
-    "main.d7a2343b.js.map": "/static/js/main.d7a2343b.js.map",
+    "main.a138d570.js.map": "/static/js/main.a138d570.js.map",
     "787.749b4a44.chunk.js.map": "/static/js/787.749b4a44.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6a2e4aef.css",
-    "static/js/main.d7a2343b.js"
+    "static/js/main.a138d570.js"
   ]
 }
