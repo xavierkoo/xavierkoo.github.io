@@ -14,6 +14,7 @@ import greenventure from "../assets/img/greenventure.png";
 import leapaheadx from "../assets/img/leapaheadx.png";
 import psa from "../assets/img/psa.png";
 import aws from "../assets/img/aws.png";
+import auth from "../assets/img/auth.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -26,6 +27,12 @@ export const Projects = () => {
             imgUrl: psa,
             projUrl: 'https://github.com/xavierkoo/psa-codesprint-2023',
             depUrl: 'https://www.linkedin.com/feed/update/urn:li:activity:7122807331519696900?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BxXggErcFRK2%2F%2BZRXFfuxcg%3D%3D',
+        },
+        {
+            title: "Authentication System - Ascenda Loyalty",
+            description: "Engineered a highly scalable and secure authentication system for the client company with AWS (Cognito, S3, Lambda, CloudFront,Route 53, WAF, API Gateway), and React TypeScript.",
+            imgUrl: auth,
+            projUrl: 'https://github.com/xavierkoo/authentication-system',
         },
         {
             title: "Form Management System - Quantum Leap Inc.",
