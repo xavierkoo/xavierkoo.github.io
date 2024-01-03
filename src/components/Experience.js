@@ -30,6 +30,35 @@ export const Experience = () => {
                                         },
                                     }}
                                 >
+                                    <TimelineItem>
+                                        <TimelineSeparator>
+                                            <TimelineConnector  />
+                                            <TimelineDot color="secondary">
+                                                <CodeIcon />
+                                            </TimelineDot>
+                                            <TimelineConnector />
+                                        </TimelineSeparator>
+                                        <TimelineContent sx={{ py: "15px", px: 2 }}>
+                                        <Typography variant="p" component="span">
+                                            Jan 2024 - Apr 2024
+                                        </Typography> <br />
+                                        <Typography  fontWeight="bold" variant="h5" component="span">
+                                            Teaching Assistant <Typography variant="h5" color="secondary">@Singapore Management University</Typography>
+                                        </Typography>
+                                        <ul>
+                                            <li className="mb-2">
+                                                <Typography>
+                                                  IS213 - Enterprise Solutions Development
+                                                </Typography>
+                                            </li>
+                                            <li className="mb-2">
+                                                <Typography>
+                                                CS301 - IT Solution Architecture
+                                                </Typography>
+                                            </li>
+                                        </ul>
+                                        </TimelineContent>
+                                    </TimelineItem>
                                      <TimelineItem>
                                         <TimelineSeparator>
                                             <TimelineConnector  />
@@ -40,7 +69,7 @@ export const Experience = () => {
                                         </TimelineSeparator>
                                         <TimelineContent sx={{ py: "15px", px: 2 }}>
                                         <Typography variant="p" component="span">
-                                            Aug 2023 - Present
+                                            Aug 2023 - Jan 2024
                                         </Typography> <br />
                                         <Typography  fontWeight="bold" variant="h5" component="span">
                                             Software Engineer <Typography variant="h5" color="secondary">@Asterisk Technologies</Typography>
@@ -62,6 +91,11 @@ export const Experience = () => {
                                             <li className="mb-2">
                                                 <Typography>
                                                 Spearheaded the software rewrite of a visitor management system for a major client using Flutter, Riverpod and SQLite.
+                                                </Typography>
+                                            </li>
+                                            <li className="mb-2">
+                                                <Typography>
+                                                Developed further enhancements and internal tools for the hospital's facilities management system.
                                                 </Typography>
                                             </li>
                                         </ul>
