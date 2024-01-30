@@ -45,15 +45,21 @@ export const Experience = () => {
                                         <Typography  fontWeight="bold" variant="h5" component="span">
                                             Teaching Assistant <Typography variant="h5" color="secondary">@Singapore Management University</Typography>
                                         </Typography>
+                                        <div className="item-exp mt-1 mb-4">
+                                            <i className='devicon-java-plain colored' title='Java'></i>
+                                            <i className='devicon-docker-plain colored' title='Docker'></i>
+                                            <i class="devicon-amazonwebservices-original colored" title='AWS'></i>
+                                            <i class="devicon-flask-original" title='Flask'></i>
+                                        </div>
                                         <ul>
                                             <li className="mb-2">
                                                 <Typography>
-                                                  IS213 - Enterprise Solutions Development
+                                                    CS301 - IT Solution Architecture (AY23/24 Sem 2, under Prof. Ouh Eng Lieh)
                                                 </Typography>
                                             </li>
                                             <li className="mb-2">
                                                 <Typography>
-                                                CS301 - IT Solution Architecture
+                                                    IS213 - Enterprise Solution Development (AY23/24 Sem 2, under Prof. Jiang Lingxiao)
                                                 </Typography>
                                             </li>
                                         </ul>
