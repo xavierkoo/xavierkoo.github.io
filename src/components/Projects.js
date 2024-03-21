@@ -5,6 +5,7 @@ import monster from "../assets/img/monster-slayer.png";
 import hangman from "../assets/img/hangman.png";
 import portfolio from "../assets/img/portfolio.png";
 import kaggle from "../assets/img/kaggle.png";
+import license from "../assets/img/license.png";
 import ev from "../assets/img/ev.png";
 import irecycle from "../assets/img/irecycle.png";
 import oracle from "../assets/img/oracle.png";
@@ -77,6 +78,12 @@ export const Projects = () => {
     ];
 
     const mlProjects = [
+        {
+            title: "License Plate Detection and Recognition",
+            description: "License Plate Detection and Recognition Tool built upon YOLOv4/YOLOv7 for license plate detection and PaddleOCR for license plate character recognition.",
+            imgUrl: license,
+            depUrl: 'https://github.com/xavierkoo/computer_vision_anpr_alpr'
+        },
         {
             title: "Facebook Humans or Robots",
             description: "Kaggle Competition to determine if auction bids are made by humans or robots.",
