@@ -2,7 +2,9 @@
 
 Deployed on Github Pages: https://xavierkoo.github.io/
 
-To setup a dev environment:
+Internal OS Repository - https://github.com/xavierkoo/portfolio-website-os
+
+To set up a dev environment:
 
 ```bash
 # Clone the repository
